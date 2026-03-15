@@ -1,0 +1,1999 @@
+{
+  "generated_at_utc": "2026-03-08T17:22:57.133906+00:00",
+  "source_report_path": "C:\\Users\\user\\Desktop\\frixos_gpt_web\\ssi-backend-modular\\evaluation_report_user1_fixed.json",
+  "source_report_generated_at_utc": "2026-03-06T16:43:20.678283+00:00",
+  "user_id": 1,
+  "filter_criteria": {
+    "status": "ok",
+    "require_expected_answerable": true,
+    "min_retrieved_chunks": 1,
+    "exclude_knowledge_base_refusals": true
+  },
+  "counts": {
+    "source_total_results": 20,
+    "kept_results": 10,
+    "removed_results": 10
+  },
+  "results": [
+    {
+      "question_index": 1,
+      "guideline": "WHO guidelines",
+      "user_question": "When is the appropriate time to administer antibiotics before surgery?",
+      "assistant_answer": "The appropriate time to administer surgical antibiotic prophylaxis (SAP) is generally within 60 minutes prior to the surgical incision. For certain antibiotics, such as vancomycin and fluoroquinolones, administration should be started within 120 minutes before the incision due to their longer infusion times. This optimal timing helps to ensure adequate serum and tissue levels of the antibiotic to reduce the risk of surgical site infections (SSI).",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9874188947018719,
+          "verified_match": true,
+          "snippet": "Some experimental \r\nand clinical studies have demonstrated an effect \r\nof SAP timing on SSI (6, 7), but the optimal timing\r\nis still under debate.\r\nThe administration of SAP prior to surgery has been\r\nspecified in many clinical practice guidelines issued\r\nby professional societies or national authorities\r\n(Table 4.4.1). Several of these guidelines, such as\r\nthose published by the ASHP (4), SHEA/ IDSA) (8),\r\nthe Royal College of Physicians of Ireland (9) or\r\nHealth Protection Scotland (10), recommend\r\nadministration within 60 minutes prior to incision\r\n(120 minutes for vancomycin and fluoroquinolones\r\ndue to prolonged infusion times) (3). However,\r\nthese recommendations are not based on\r\nsystematic reviews of the literature and meta\ufffeanalysis or a rigorous evaluation of the quality \r\nof the available evidence.73 4. Evidence-based recommendations on measures for the prevention of surgical site infection | PREOPERATIVE MEASURES\r\nGuidelines\r\n(date issued)\r\nSHEA/IDSA\r\n(2014) (8)\r\nNICE\r\n(2013) (11).\r\nASHSP \r\n(2013) (4)\r\nThe Royal College \r\nof Physicians of\r\nIreland (2012) (9)\r\nUSA Institute \r\nof Health\r\nImprovement:\r\nsurgical site\r\ninfection \r\n(2012) (12)\r\nHealth Protection\r\nScotland bund..."
+        },
+        {
+          "rank": 2,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9704509351428973,
+          "verified_match": true,
+          "snippet": "While the benefit of this approach seems\r\nreasonable from a drug pharmacokinetic aspect, the reviewed studies have not addressed in SAP\r\nprotocols the duration of surgical procedures or re-dosing in relation to SSI. No recommendation\r\ncould be concluded on the benefit or harm of this approach. \r\n\u00f1 Some guidelines distinguish that some antibiotics require administration over 1-2 hours, such as\r\nfluoroquinolones and vancomycin. Therefore, the administration of these agents should begin\r\nwithin 120 minutes before the surgical incision. The literature search has not identified studies with\r\nSSI as an outcome that differentiate between the timing of administration of antibiotics requiring a\r\nlonger period and those with a shorter administration timing. Clinicians should consider the half-life\r\nand protein binding as the most important pharmacokinetic parameters of any single SAP agent in\r\norder to ensure adequate serum and tissue concentration at the time of incision and during the\r\nentire surgical procedure.\r\nGlobal Guidelines for the Prevention of Surgical Site Infection 72\r\nBackground\r\nSAP refers to the prevention of infectious\r\ncomplications by administering an effective\r\nantimicrob..."
+        },
+        {
+          "rank": 3,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9464414260794483,
+          "verified_match": true,
+          "snippet": "A relevant harm possibly linked to prolonged SAP is the intestinal spread of C.\r\ndifficile with a higher risk of a clinical manifestation of infection.Background\r\nThe preventive effect of the routine use of SAP \r\nprior to non-clean and implant surgery has long\r\nbeen recognized. However, the benefit of\r\ncontinuing SAP after completion of the procedure \r\nis unclear. While current guidelines recommend a\r\nmaximum postoperative SAP duration of 24 hours,\r\nincreasing evidence shows that there may be \r\nnon-inferiority of a single preoperative dose (and\r\npossible additional intraoperative doses according\r\nto the duration of the operation). Despite this,\r\nsurgeons still have a tendency to routinely continue\r\nSAP up to several days after surgery (15, 16).\r\nThe use and duration of postoperative prophylaxis\r\nhave been specified in clinical practice guidelines\r\nissued by professional societies or national\r\nauthorities (Table 4.24.1). Several guidelines, \r\nsuch as those published by SHEA/IDSA (17)\r\nand the American Society of Health-System\r\nPharmacists (1), recommend discontinuing SAP\r\nwithin 24 hours after surgery. The 2012 SSI\r\nprevention bundle from the US Institute of\r\nHealthcare Improvement..."
+        },
+        {
+          "rank": 4,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9384440589695627,
+          "verified_match": true,
+          "snippet": "No RCTs\r\nwere identified. The body of retrieved evidence\r\nfocused on adult patients and no study was\r\navailable in the paediatric population. The\r\nliterature search did not identify any studies that\r\nreported on SSI-attributable mortality. Despite\r\nsubstantial heterogeneity in reporting time\r\nintervals between the selected studies, separate\r\nmeta-analyses were performed to evaluate the\r\nfollowing comparisons of SAP timing\r\nadministration: pre- vs. post-incision within 120\r\nminutes vs. more than 120 minutes prior to\r\nincision; more than 60 minutes vs. within 60\r\nminutes prior to incision; and 30-60 minutes vs. \r\n0-30 minutes. \r\nTable 4.4.1. Recommendations on SAP according to available guidelines\r\nSAP: Surgical antibiotic prophylaxis; SHEA: Society for Healthcare Epidemiology of America; IDSA: Infectious Diseases\r\nSociety of America; NICE: National Institute for Health and Care Excellence; ASHSP: American Society of Health-Care\r\nPharmacists.Moderate quality evidence shows that SAP\r\nadministration before 120 minutes pre-incision \r\nis associated with a significantly higher risk of SSI\r\nwhen compared to administration within 120\r\nminutes (OR: 5.26; 95% CI: 3.29\u20138.39).\r\nFurthermore, the..."
+        },
+        {
+          "rank": 5,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.8886367254023328,
+          "verified_match": true,
+          "snippet": "Additional factors considered when\r\nformulating the recommendation\r\nValues and preferences\r\nNo study was found on patient values and\r\npreferences with regards to this intervention. \r\nThe GDG concluded that all patients, health care\r\nproviders and policy-makers will favour the\r\nintervention for both recommendations. Due \r\nto logistic and practical considerations,\r\nanaesthesiologists tend to administer SAP in the\r\noperating room. This is often close to the start \r\nof incision, but it still lies within the 120-minute\r\ninterval recommended by the GDG. \r\nResource use\r\nThere are no extra costs related to an optimized\r\ntiming interval for SAP. However, the GDG believes\r\nthat it is important to define responsibility for\r\ntimely SAP administration and organizational\r\nresources may be required. In-service training\r\nincluding best practices for SAP administration\r\nshould be provided. Feasibility and equity are not\r\nidentified as significant issues for both\r\nrecommendations.\r\nResearch gaps\r\nThe GDG highlighted the limited evidence available\r\non optimal SAP timing to prevent SSI and the need\r\nfor further studies on this topic. In particular and \r\nas a high priority, RCTs comparing the effect of..."
+        },
+        {
+          "rank": 6,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.7186219128570931,
+          "verified_match": true,
+          "snippet": "Comparison between\r\noral antibiotics and probiotics as bowel\r\npreparation for elective colon cancer surgery \r\nto prevent infection: prospective randomized\r\ntrial. Surgery. 2014;155(3):493-503.\r\n5. Takesue Y, Yokoyama T, Akagi S, Ohge H,\r\nMurakami Y, Sakashita Y, et al. A brief course\r\nstrongly supports the use of oral antibiotics as part\r\nof a bundled intervention, but in combination \r\nwith MBP. In this study, the combination of the\r\npreoperative administration of oral antibiotics and\r\nMBP was omitted in one group and compared with\r\na standard regimen of oral antibiotics and MBP,\r\nwhile both arms received intravenous antibiotics\r\nprior to the surgical incision.\r\nAdditional factors considered when\r\nformulating the recommendation\r\nValues and preferences\r\nOne study (9) found a higher incidence of\r\ndiarrhoea when oral antibiotics were administered.\r\nAnother study (1) assessed patient tolerance with \r\n3 different oral antibiotic regimes. Patients\r\nreported more gastrointestinal symptoms (that is\r\nnausea and vomiting) at the time of preoperative\r\npreparation when given 3 doses of oral antibiotics\r\ncompared to no oral antibiotics or one dose only.\r\nAmong the studies comparing MBP with no..."
+        }
+      ],
+      "flashcards": [
+        {
+          "question": "What is the recommended timing for administering surgical antibiotic prophylaxis (SAP) before surgery?",
+          "answer": "Within 60 minutes prior to incision; 120 minutes for vancomycin and fluoroquinolones."
+        },
+        {
+          "question": "Why is it important to administer antibiotics in a timely manner before surgery?",
+          "answer": "To ensure adequate serum and tissue levels of the antibiotic, reducing the risk of surgical site infections (SSI)."
+        },
+        {
+          "question": "What happens if antibiotics are administered more than 120 minutes before incision?",
+          "answer": "It is associated with a significantly higher risk of surgical site infection (SSI)."
+        },
+        {
+          "question": "Which antibiotics require administration 120 minutes prior to incision?",
+          "answer": "Vancomycin and fluoroquinolones."
+        },
+        {
+          "question": "What is the significance of the 60-minute guideline for SAP administration?",
+          "answer": "It helps maximize the effectiveness of the prophylaxis in preventing surgical site infections."
+        }
+      ],
+      "mcq": {
+        "quiz_title": "Evaluation MCQ #1",
+        "questions": [
+          {
+            "question_text": "What is the recommended timing for administering surgical antibiotic prophylaxis (SAP) before surgery?",
+            "flashcard_id": 146,
+            "options": [
+              {
+                "label": "A",
+                "text": "Within 60 minutes prior to incision; 120 minutes for vancomycin and fluoroquinolones."
+              },
+              {
+                "label": "B",
+                "text": "After the surgery is completed."
+              },
+              {
+                "label": "C",
+                "text": "24 hours before the procedure."
+              },
+              {
+                "label": "D",
+                "text": "At the time of surgery."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "Why is it important to administer antibiotics in a timely manner before surgery?",
+            "flashcard_id": 147,
+            "options": [
+              {
+                "label": "A",
+                "text": "To ensure adequate serum and tissue levels of the antibiotic, reducing the risk of surgical site infections (SSI)."
+              },
+              {
+                "label": "B",
+                "text": "To minimize the cost of antibiotics."
+              },
+              {
+                "label": "C",
+                "text": "To avoid allergic reactions."
+              },
+              {
+                "label": "D",
+                "text": "To ensure complete recovery after surgery."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "What happens if antibiotics are administered more than 120 minutes before incision?",
+            "flashcard_id": 148,
+            "options": [
+              {
+                "label": "A",
+                "text": "It is associated with a significantly higher risk of surgical site infection (SSI)."
+              },
+              {
+                "label": "B",
+                "text": "It helps in faster recovery."
+              },
+              {
+                "label": "C",
+                "text": "There are no noticeable effects."
+              },
+              {
+                "label": "D",
+                "text": "It leads to improved outcomes."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "Which antibiotics require administration 120 minutes prior to incision?",
+            "flashcard_id": 149,
+            "options": [
+              {
+                "label": "A",
+                "text": "Vancomycin and fluoroquinolones."
+              },
+              {
+                "label": "B",
+                "text": "Clindamycin."
+              },
+              {
+                "label": "C",
+                "text": "Penicillin."
+              },
+              {
+                "label": "D",
+                "text": "Cefazolin."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "What is the significance of the 60-minute guideline for SAP administration?",
+            "flashcard_id": 150,
+            "options": [
+              {
+                "label": "A",
+                "text": "It is a suggestion rather than a requirement."
+              },
+              {
+                "label": "B",
+                "text": "It helps maximize the effectiveness of the prophylaxis in preventing surgical site infections."
+              },
+              {
+                "label": "C",
+                "text": "It relates to patient comfort during surgery."
+              },
+              {
+                "label": "D",
+                "text": "It minimizes the use of antibiotics."
+              }
+            ],
+            "correct_label": "B"
+          }
+        ]
+      }
+    },
+    {
+      "question_index": 2,
+      "guideline": "WHO guidelines",
+      "user_question": "What method should be used to remove hair from the surgical site, and when should this be done?",
+      "assistant_answer": "To minimize the risk of surgical site infections (SSIs), hair should only be removed if necessary, and the preferred method is to use electric clippers with a disposable head. Hair removal should be performed as close to the time of the surgical procedure as possible, ideally on the day of surgery and outside the operating room. Razors should never be used for hair removal due to their association with increased SSI risk.",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9661329433883578,
+          "verified_match": true,
+          "snippet": "Summary of the evidence\r\nThe purpose of the evidence review (web Appendix\r\n7) was to investigate whether the method and\r\ntiming of hair removal (using clippers, depilatory\r\nHowever, a significant harm was observed \r\nwhen hair removal with razors was compared \r\nwith clipping (2).\r\nAmong available guidelines, 4 explicitly\r\nrecommend to avoid routine hair removal as a part\r\nof preoperative measures to prevent SSI (3-6). \r\ncream or shaving with razors) or no hair removal\r\naffect the incidence of SSI. The target population\r\nwas patients of all ages undergoing a surgical\r\nprocedure. The primary outcomes were the\r\noccurrence of SSI and SSI-attributable mortality.\r\nA total of 15 RCTs or quasi-randomized trials \r\n(1, 9-22) comparing the effect of preoperative hair\r\nremoval vs. no hair removal or different methods \r\nof hair removal (shaving, clipping and depilatory\r\nGuidelines\r\n(date issued)\r\nSHEA/IDSA\r\n(2014) (6)\r\nNICE\r\n(2013) (7)\r\nThe Royal College \r\nof Physicians \r\nof Ireland \r\n(2012) (4)\r\nUSA Institute \r\nfor Healthcare\r\nImprovement: \r\nsurgical site \r\ninfection\r\n(2012) (5)\r\nHealth Protection\r\nScotland bundle\r\n(2013) (3)\r\nUK High impact\r\nintervention\r\nbundle\r\n(2011) (8)\r\nRecommendations on..."
+        },
+        {
+          "rank": 2,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9558068786541333,
+          "verified_match": true,
+          "snippet": "Evidence for preoperative hair removal in reducing SSI rates is insufficient. Razors\r\nshould not be used for hair removal because they increase the risk of SSI. If hair has \r\nto be removed, use electric clippers with a single-use head on the day of surgery as\r\nclipping may be associated with a reduced rate of SSI.\r\nAvoid hair removal. If hair must be removed, then use single-patient use clippers and\r\nnot razors. \r\nAvoid hair removal. If removal is necessary, remove outside the operating room\r\nusing a single-patient use clipper.\r\nAvoid hair removal. If removal is necessary, use a single-patient use clipper.\r\nIf hair removal is required, use clippers with a disposable head and timed as close as\r\npossible to the operating procedure.\r\nTable 4.6.1. Recommendations on hair removal according to available guidelines\r\nSHEA: Society for Healthcare Epidemiology of America; IDSA: Infectious Diseases Society of America; SSI: surgical site\r\ninfection; NICE: National Institute for Health and Care Excellence; UK: United Kingdom.\r\nAll other guidelines recommend not using razors. \r\nIf electric clippers are used, a single-use head should\r\nbe used (Table 4.6.1). Only a few guidelines\r\nprovide an evalu..."
+        },
+        {
+          "rank": 3,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9365765214336296,
+          "verified_match": true,
+          "snippet": "29. Morris MS, Graham LA, Chu DI, Cannon JA,\r\nHawn MT. Oral Antibiotic bowel preparation\r\nsignificantly reduces surgical site infection rates\r\nand readmission rates in elective colorectal\r\nsurgery. Ann Surg. 2015;261(6):1034-40.\r\n30. Scarborough JE, Mantyh CR, Sun Z, Migaly J.\r\nCombined mechanical and oral antibiotic\r\nbowel preparation reduces incisional surgical\r\nsite infection and anastomotic leak rates after\r\nelective colorectal resection: an analysis of\r\ncolectomy-targeted ACS NSQIP. Ann Surg.\r\n2015;262(2):331-7.\r\n31. Anthony T, Murray BW, Sum-Ping JT, Lenkovsky\r\nF, Vornik VD, Parker BJ, et al. Evaluating an\r\nevidence-based bundle for preventing surgical\r\nsite infection: a randomized trial. Arch Surg.\r\n2011;146(3):263-9.\r\n32. Hata H, Yamaguchi T, Hasegawa S, Nomura A,\r\nHida K, Nishitai R, et al. Oral and parenteral\r\nversus parenteral antibiotic prophylaxis in\r\nelective laparoscopic colorectal surgery \r\n(JMTO PREV 07-01): a phase 3, multicenter,\r\nopen-label, randomized trial. Ann Surg.\r\n2016;263:1085-91.Global Guidelines for the Prevention of Surgical Site Infection 82\r\n4.6 Hair removal\r\nRecommendation\r\nThe panel recommends that in patients undergoing any surgical procedure, hai..."
+        },
+        {
+          "rank": 4,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9295335682189917,
+          "verified_match": true,
+          "snippet": "\u00f1 The GDG did not identify any possible harm associated with no hair removal or using clippers. \r\nBackground\r\nRemoval of hair from the intended site of surgical\r\nincision has traditionally been part of the routine\r\npreoperative preparation of patients undergoing\r\nsurgery. Hair removal may be necessary to facilitate\r\nadequate exposure and preoperative skin marking.\r\nFurthermore, suturing and the application of wound\r\ndressings can be complicated by the presence of\r\nhair. Apart from these practical issues, hair has been\r\nassociated with a lack of cleanliness and the\r\npotential to cause SSI. There is also the belief \r\nthat hair removal inversely increases the risk of SSI\r\nby causing microscopic trauma of the skin. To\r\nminimize the potential of skin trauma, the use \r\nof clippers instead of razors has been proposed \r\nfor preoperative hair removal. In contrast to razors\r\nthat involve a sharp blade drawn directly over the\r\nskin, clippers cut the hair close to the skin without\r\nactually touching it. A third method for hair\r\nremoval is the application of depilatory creams\r\ncontaining chemicals. Drawbacks of the use \r\nof these creams are the necessity to leave them \r\nin place for approximate..."
+        },
+        {
+          "rank": 5,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9221259711430713,
+          "verified_match": true,
+          "snippet": "(Strong recommendation, moderate quality of evidence)\r\nRationale for the recommendation\r\n\u00f1 For the formulation of the recommendation, the GDG considered the meta-analysis comparing\r\nclipping and no hair removal vs. shaving to be the most relevant. Moderate quality evidence shows\r\na clear benefit of either no hair removal or clipping when compared to shaving with a significant\r\ndecrease of the SSI risk. \r\n\u00f1 As a result, the GDG unanimously agreed to recommend that hair should either not be removed or,\r\nif absolutely necessary, it should be removed only with a clipper and the strength of this\r\nrecommendation should be strong. \r\nRemarks\r\n\u00f1 The body of retrieved evidence focused on adult patients and no study was available in the\r\npaediatric population. However, the GDG considers this recommendation valid also for paediatric\r\npatients.\r\n\u00f1 When analysed separately, there was no significant difference between clipping and shaving\r\ncompared to no hair removal, but clipping was found to be significantly beneficial when compared\r\nto shaving. The GDG decided that no hair removal and clipping should be compared to shaving in\r\nthe same group as they are both similar in nature.\r\n\u00f1 It was noted..."
+        },
+        {
+          "rank": 6,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.8464018057199235,
+          "verified_match": true,
+          "snippet": "24. Ram E, Sherman Y, Weil R, Vishne T, Kravarusic\r\nD, Dreznik Z. Is mechanical bowel preparation\r\nmandatory for elective colon surgery? A\r\nprospective randomized study. Arch Surg.\r\n2005;140(3):285-8.\r\n25. Santos JC, Jr., Batista J, Sirimarco MT,\r\nGuimaraes AS, Levy CE. Prospective randomized\r\ntrial of mechanical bowel preparation in81 4. Evidence-based recommendations on measures for the prevention of surgical site infection | PREOPERATIVE MEASURES\r\npatients undergoing elective colorectal\r\nsurgery. Br J Surg. 1994;81(11):1673-6.\r\n26. Young Tabusso F, Celis Zapata J, Berrospi\r\nEspinoza F, Payet Meza E, Ruiz Figueroa E.\r\n[Mechanical preparation in elective colorectal\r\nsurgery, a usual practice or a necessity?]. Rev\r\nGastroenterol Peru. 2002;22(2):152-8.\r\n27. Zmora O, Mahajna A, Bar-Zakai B, Rosin D,\r\nHershko D, Shabtai M, et al. Colon and rectal\r\nsurgery without mechanical bowel preparation:\r\na randomized prospective trial. Ann Surg.\r\n2003;237(3):363-7.\r\n28. Cannon JA, Altom LK, Deierhoi RJ, Morris M,\r\nRichman JS, Vick CC, et al. Preoperative oral\r\nantibiotics reduce surgical site infection\r\nfollowing elective colorectal resections.\r\nDis.Colon Rectum. 2012;55(11):1160-6.\r\n29. Morris..."
+        }
+      ],
+      "flashcards": [
+        {
+          "question": "What is the recommended method for hair removal prior to surgery?",
+          "answer": "Use electric clippers with a disposable head."
+        },
+        {
+          "question": "When should hair removal be performed before surgery?",
+          "answer": "Just before the surgical procedure, ideally on the day of surgery."
+        },
+        {
+          "question": "Why should razors be avoided for hair removal before surgery?",
+          "answer": "Razors can cause microscopic skin trauma, increasing the risk of surgical site infections."
+        },
+        {
+          "question": "What should be done if hair removal is necessary for surgery?",
+          "answer": "Only remove hair if necessary, using clippers outside the operating room."
+        },
+        {
+          "question": "What is the relationship between hair removal methods and SSIs?",
+          "answer": "Using clippers or not removing hair at all is associated with a reduced risk of SSIs compared to shaving."
+        }
+      ],
+      "mcq": {
+        "quiz_title": "Evaluation MCQ #2",
+        "questions": [
+          {
+            "question_text": "What is the recommended method for hair removal prior to surgery?",
+            "flashcard_id": 151,
+            "options": [
+              {
+                "label": "A",
+                "text": "Shave using a safety razor."
+              },
+              {
+                "label": "B",
+                "text": "Use electric clippers with a disposable head."
+              },
+              {
+                "label": "C",
+                "text": "Wax the area."
+              },
+              {
+                "label": "D",
+                "text": "Use a straight razor."
+              }
+            ],
+            "correct_label": "B"
+          },
+          {
+            "question_text": "When should hair removal be performed before surgery?",
+            "flashcard_id": 152,
+            "options": [
+              {
+                "label": "A",
+                "text": "It is not necessary to remove hair."
+              },
+              {
+                "label": "B",
+                "text": "A week before the surgery."
+              },
+              {
+                "label": "C",
+                "text": "Just before the surgical procedure, ideally on the day of surgery."
+              },
+              {
+                "label": "D",
+                "text": "The night before the surgery."
+              }
+            ],
+            "correct_label": "C"
+          },
+          {
+            "question_text": "Why should razors be avoided for hair removal before surgery?",
+            "flashcard_id": 153,
+            "options": [
+              {
+                "label": "A",
+                "text": "Razors are not effective."
+              },
+              {
+                "label": "B",
+                "text": "Razors can cause microscopic skin trauma, increasing the risk of surgical site infections."
+              },
+              {
+                "label": "C",
+                "text": "Razors are overly expensive."
+              },
+              {
+                "label": "D",
+                "text": "Razors do not provide a close shave."
+              }
+            ],
+            "correct_label": "B"
+          },
+          {
+            "question_text": "What should be done if hair removal is necessary for surgery?",
+            "flashcard_id": 154,
+            "options": [
+              {
+                "label": "A",
+                "text": "Remove hair using a razor in the operating room."
+              },
+              {
+                "label": "B",
+                "text": "Use waxing techniques prior to surgery."
+              },
+              {
+                "label": "C",
+                "text": "Do not remove any hair at all."
+              },
+              {
+                "label": "D",
+                "text": "Only remove hair if necessary, using clippers outside the operating room."
+              }
+            ],
+            "correct_label": "D"
+          },
+          {
+            "question_text": "What is the relationship between hair removal methods and SSIs?",
+            "flashcard_id": 155,
+            "options": [
+              {
+                "label": "A",
+                "text": "All methods have the same risk for SSIs."
+              },
+              {
+                "label": "B",
+                "text": "Using depilatory creams is the safest method."
+              },
+              {
+                "label": "C",
+                "text": "Using clippers or not removing hair at all is associated with a reduced risk of SSIs compared to shaving."
+              },
+              {
+                "label": "D",
+                "text": "Shaving decreases the risk of SSIs."
+              }
+            ],
+            "correct_label": "C"
+          }
+        ]
+      }
+    },
+    {
+      "question_index": 5,
+      "guideline": "CDC Guidelines",
+      "user_question": "For which patients and what blood glucose levels should we aim for to prevent postoperative infections?",
+      "assistant_answer": "To prevent postoperative infections, particularly surgical site infections (SSIs), blood glucose levels should be managed carefully. For all surgical patients, including both diabetic and non-diabetic, the recommended upper limit for blood glucose should be maintained at or below 180 mg/dL (10 mmol/L).  \n\nSpecifically, for diabetic patients, efforts should be made to keep blood glucose levels at <11 mmol/L (180 mg/dL) throughout the operation. Intensive blood glucose control protocols are suggested, particularly targeting levels between 140-200 mg/dL (7.8-11.1 mmol/L). \n\nIt's important to avoid intensive glucose control to levels below 110 mg/dL in patients without diabetes, as it may not reduce SSIs and could lead to adverse effects. Therefore, appropriate management based on individual patient needs and conditions is essential to minimize infection risks post-surgery.",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9656006161825984,
+          "verified_match": true,
+          "snippet": "a) Maintain postoperative blood glucose at 180 mg/dL or lower.\r\nb) Intensive postoperative glucose control (targeting levels less than 110 mg/dL)\r\nhas not been shown to reduce the risk of SSI and may actually lead to higher\r\nrates of adverse outcomes, including stroke and death.\r\nDo not give insulin routinely to patients who do not have diabetes to optimize\r\nblood glucose postoperatively as a means of reducing the risk of SSI.\r\nEnsure that the diabetic patient\u2019s glucose level is kept at <11 mmol/L throughout the\r\noperation.\r\nEnsure that if the patient is diabetic that the glucose level is kept at <11 mmol/L\r\nthroughout the operation.\r\nA glucose level of <11 mmol/L has to be maintained in diabetic patients. \r\nAll patients with diabetes undergoing cardiac surgical procedures should receive \r\nan insulin infusion in the operating room and for at least 24 hours postoperatively\r\nto maintain serum glucose levels \u2264180 mg/dL.\r\nDo not use intensive insulin therapy (4.4 to 6.1 mmol/L [80 to 110 mg/dL]) to\r\nnormalize blood glucose in SICU/MICU patients with or without diabetes mellitus. \r\nA target blood glucose level of 7.8 to 11.1 mmol/L (140 to 200 mg/dL) is\r\nrecommended if insulin therapy i..."
+        },
+        {
+          "rank": 2,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9452342567149884,
+          "verified_match": true,
+          "snippet": "Summary of the evidence\r\nThe purpose of the evidence review (web Appendix\r\n15) was to evaluate whether the use of protocols\r\nfor intensive perioperative blood glucose control \r\nis more effective in reducing the risk of SSI than\r\nconventional protocols with less stringent blood\r\nglucose target levels. The population studied were\r\npatients of all ages, both diabetic and non-diabetic,\r\nand undergoing several types of surgical\r\nprocedures. The primary outcome was the\r\noccurrence of SSI and SSI-attributable mortality. \r\nA total of 15 RCTs (1-15) including a total of 2836\r\npatients and comparing intensive perioperative\r\nblood glucose protocols vs. conventional\r\nprotocols with less stringent blood glucose target\r\nlevels were identified. Eight studies were performed\r\nin adult patients undergoing cardiac surgery (1, 2,\r\n4, 6, 9-11, 15), 6 in patients undergoing abdominal\r\nor major non-cardiac surgery (3, 5, 7, 12-14), and\r\none other study in patients undergoing emergency\r\ncerebral aneurysm clipping (8). No study was\r\navailable in a paediatric population. In 2 studies \r\n(4, 7), glucose control was performed\r\nintraoperatively only. Eight studies (1, 2, 6, 8, 9,\r\n11, 13, 15) investigated intra..."
+        },
+        {
+          "rank": 3,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9372209815647042,
+          "verified_match": true,
+          "snippet": "Several observational studies (17-20) showed that\r\nhyperglycaemia is associated with an increased risk\r\nof SSI and therefore an increased risk of morbidity,\r\nmortality and higher health care costs in both\r\ndiabetic and non-diabetic patients and in different\r\ntypes of surgery. Conflicting results have been\r\nreported regarding the different treatment options\r\nto control hyperglycaemia in diabetic and non\ufffediabetic patients, the optimal target levels of blood\r\nglucose and the ideal timing for glucose control\r\n(intra- and/or postoperative). Moreover, some\r\nstudies targeting relatively low perioperative\r\nglucose levels have highlighted the risk of adverse\r\neffects associated with intensive protocols as they\r\nmay cause hypoglycaemia (21-24). \r\nSeveral organizations have issued recommendations\r\nregarding perioperative blood glucose control\r\n(Table 4.14.1). While most recommendations \r\nfocus on the diabetic patient only, those issued \r\nby SHEA/IDSA (25) and the American College of\r\nPhysicians (26) apply to all surgical patients. They\r\nrecommend either target levels between 140-200\r\nmg/dL (7.8-11.1 mmol/L) or upper limits of 180\r\nmg/dL (10mmol/L) or 198 mg/dL (11mmol/L). \r\nDue to the risk of..."
+        },
+        {
+          "rank": 4,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.936614051935551,
+          "verified_match": true,
+          "snippet": "Surgery causes a stress\r\nresponse that results in a release of catabolic\r\nhormones and the inhibition of insulin. Moreover,\r\nsurgical stress influences pancreatic beta-cell\r\nfunction, which results in lower plasma insulin\r\nlevels. Taken together, this relative\r\n4.14 Use of protocols for intensive perioperative blood glucose control\r\nRecommendation\r\nThe panel suggests the use of protocols for intensive perioperative blood glucose control for both\r\ndiabetic and non-diabetic adult patients undergoing surgical procedures to reduce the risk of SSI.\r\n(Conditional recommendation, low quality of evidence)\r\nRationale for the recommendation\r\n\u00f1 Overall low quality evidence shows that a protocol with more strict blood glucose target levels\r\nhas a significant benefit in reducing SSI rates when compared to a conventional protocol. There was\r\nevidence that the effect was smaller in studies that used intensive blood glucose controls\r\nintraoperatively only compared to studies that used an intensive protocol postoperatively or both\r\nintra- and postoperatively. Among the intensive protocols, the effect was similar in studies with a\r\ntarget blood glucose level of \u2264110 mg/dL (6.1 mmol/L) and an upper l..."
+        },
+        {
+          "rank": 5,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9289040488152701,
+          "verified_match": true,
+          "snippet": "15. High impact intervention: care bundle to\r\nprevent surgical site infection. London:\r\nDepartment of Health; 2011\r\n(http://webarchive.nationalarchives.gov.uk/201\r\n20118164404/http://hcai.dh.gov.uk/files/2011/\r\n03/2011-03-14-HII-Prevent-Surgical-Site\ufffeinfection-FINAL.pdf, accessed 24 July 2016).\r\n16. Kurz A, Sessler DI, Lenhardt R. Perioperative\r\nnormothermia to reduce the incidence of\r\nsurgical-wound infection and shorten\r\nhospitalization. Study of Wound Infection \r\nand Temperature Group. New Engl J Med.\r\n1996; 334(19):1209-15.\r\n17. Melling AC, Ali B, Scott EM, Leaper DJ. Effects\r\nof preoperative warming on the incidence \r\nof wound infection after clean surgery: \r\na randomised controlled trial. Lancet.\r\n2001;358(9285):876-80.\r\n18. Fleisher LA, Metzger SE, Lam J, Harris A.\r\nPerioperative cost-finding analysis of the\r\nroutine use of intraoperative forced-air\r\nwarming during general anesthesia.\r\nAnesthesiology. 1998;88(5):1357-64.\r\n19. Mahoney CB, Odom J. Maintaining\r\nintraoperative normothermia: a meta-analysis \r\nof outcomes with costs. AANA J.\r\n1999;67(2):155-63.\r\n20. Berry D, Wick C, Magons P. A clinical\r\nevaluation of the cost and time effectiveness\r\nof the ASPAN hypothermia guide..."
+        },
+        {
+          "rank": 6,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9153519978740589,
+          "verified_match": true,
+          "snippet": "For this\r\nreason, separate meta-analyses were performed \r\nto evaluate intensive protocols vs. conventional\r\nprotocols in different settings (that is, in diabetic,\r\nnon-diabetic and a mixed population) with\r\nintraoperative, intra- and postoperative glucose\r\ncontrol, and in trials with intensive blood glucose\r\nupper limit target levels of \u2264110 mg/dL (6.1\r\nmmol/L) and 110-150 mg/dL (6.1-8.3 mmol/L) \r\n(web Appendix 15).\r\nOverall, there is low quality evidence that a\r\nprotocol with more strict blood glucose target\r\nlevels has a significant benefit in reducing SSI rates\r\nwhen compared to a conventional protocol \r\n(OR: 0.43; 95% CI; 0.29\u20130.64). In addition, there\r\nwas no evidence in meta-regression analyses that\r\nthe effect of intensive blood glucose control\r\ndiffered between studies of diabetic and non\ufffediabetic patients (P=0.590). There was evidence\r\nthat the effect was smaller in studies that used\r\nintensive blood glucose control intraoperatively\r\nonly (OR: 0.88; 95% CI: 0.45-1.74) compared \r\nto studies that used controls postoperatively or\r\nboth intra- and postoperatively (OR: 0.47; 95% CI:\r\n0.25-0.55; P=0.049 for the difference between\r\nORs). Among the intensive protocols, the effect..."
+        }
+      ],
+      "flashcards": [
+        {
+          "question": "What is the recommended upper limit for blood glucose levels to prevent SSIs in surgical patients?",
+          "answer": "Maintain blood glucose levels at or below 180 mg/dL (10 mmol/L)."
+        },
+        {
+          "question": "What blood glucose level should diabetic patients maintain during surgery to reduce SSI risk?",
+          "answer": "Diabetic patients should aim to keep blood glucose levels at <11 mmol/L (180 mg/dL) throughout the operation."
+        },
+        {
+          "question": "What is the suggested target blood glucose range for surgical patients to potentially reduce SSIs?",
+          "answer": "Target blood glucose levels between 140-200 mg/dL (7.8-11.1 mmol/L)."
+        },
+        {
+          "question": "Why should intensive glucose control to levels below 110 mg/dL be avoided in non-diabetic surgical patients?",
+          "answer": "It may not reduce SSIs and could lead to adverse effects."
+        },
+        {
+          "question": "Which patient population should focus on maintaining glucose levels at <11 mmol/L during surgery?",
+          "answer": "Diabetic patients."
+        }
+      ],
+      "mcq": {
+        "quiz_title": "Evaluation MCQ #5",
+        "questions": [
+          {
+            "question_text": "What is the recommended upper limit for blood glucose levels to prevent SSIs in surgical patients?",
+            "flashcard_id": 166,
+            "options": [
+              {
+                "label": "A",
+                "text": "Maintain blood glucose levels at or below 200 mg/dL (11.1 mmol/L)."
+              },
+              {
+                "label": "B",
+                "text": "Maintain blood glucose levels at or below 150 mg/dL (8.3 mmol/L)."
+              },
+              {
+                "label": "C",
+                "text": "Maintain blood glucose levels at or below 180 mg/dL (10 mmol/L)."
+              },
+              {
+                "label": "D",
+                "text": "Maintain blood glucose levels at or below 220 mg/dL (12.2 mmol/L)."
+              }
+            ],
+            "correct_label": "C"
+          },
+          {
+            "question_text": "What blood glucose level should diabetic patients maintain during surgery to reduce SSI risk?",
+            "flashcard_id": 167,
+            "options": [
+              {
+                "label": "A",
+                "text": "Diabetic patients should aim to keep blood glucose levels at <8 mmol/L (145 mg/dL) throughout the operation."
+              },
+              {
+                "label": "B",
+                "text": "Diabetic patients should aim to keep blood glucose levels at <10 mmol/L (180 mg/dL) throughout the operation."
+              },
+              {
+                "label": "C",
+                "text": "Diabetic patients should aim to keep blood glucose levels at <12 mmol/L (216 mg/dL) throughout the operation."
+              },
+              {
+                "label": "D",
+                "text": "Diabetic patients should aim to keep blood glucose levels at <11 mmol/L (180 mg/dL) throughout the operation."
+              }
+            ],
+            "correct_label": "D"
+          },
+          {
+            "question_text": "What is the suggested target blood glucose range for surgical patients to potentially reduce SSIs?",
+            "flashcard_id": 168,
+            "options": [
+              {
+                "label": "A",
+                "text": "Target blood glucose levels between 120-160 mg/dL (6.7-8.9 mmol/L)."
+              },
+              {
+                "label": "B",
+                "text": "Target blood glucose levels between 180-220 mg/dL (10-12.2 mmol/L)."
+              },
+              {
+                "label": "C",
+                "text": "Target blood glucose levels between 140-200 mg/dL (7.8-11.1 mmol/L)."
+              },
+              {
+                "label": "D",
+                "text": "Target blood glucose levels between 100-150 mg/dL (5.6-8.3 mmol/L)."
+              }
+            ],
+            "correct_label": "C"
+          },
+          {
+            "question_text": "Why should intensive glucose control to levels below 110 mg/dL be avoided in non-diabetic surgical patients?",
+            "flashcard_id": 169,
+            "options": [
+              {
+                "label": "A",
+                "text": "It prevents hypoglycemia."
+              },
+              {
+                "label": "B",
+                "text": "It ensures faster recovery times."
+              },
+              {
+                "label": "C",
+                "text": "It may not reduce SSIs and could lead to adverse effects."
+              },
+              {
+                "label": "D",
+                "text": "It improves pain management."
+              }
+            ],
+            "correct_label": "C"
+          },
+          {
+            "question_text": "Which patient population should focus on maintaining glucose levels at <11 mmol/L during surgery?",
+            "flashcard_id": 170,
+            "options": [
+              {
+                "label": "A",
+                "text": "Patients with renal failure."
+              },
+              {
+                "label": "B",
+                "text": "Non-diabetic patients."
+              },
+              {
+                "label": "C",
+                "text": "Diabetic patients."
+              },
+              {
+                "label": "D",
+                "text": "Patients with hypertension."
+              }
+            ],
+            "correct_label": "C"
+          }
+        ]
+      }
+    },
+    {
+      "question_index": 6,
+      "guideline": "CDC Guidelines",
+      "user_question": "During the preoperative shower, what solution is recommended for patients to use?",
+      "assistant_answer": "During the preoperative shower, it is recommended for patients to use soap the day before or the day of the operation to reduce the microbial load. Specifically, the US Institute of Healthcare Improvement recommends using chlorhexidine gluconate (CHG) soap. However, the use of antimicrobial soap instead of plain soap is still considered an unresolved issue by various organizations.",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9722197437665581,
+          "verified_match": true,
+          "snippet": "When considering the available evidence, the most\r\nrelevant question is whether preoperative bathing\r\nor showering with an antimicrobial soap is more\r\neffective than plain soap to reduce SSI. The GDG\r\nalso considered it relevant to investigate whether\r\nusing CHG-impregnated cloths rather than bathing\r\nwith CHG soap is more effective.\r\nSeveral organizations have issued recommendations\r\nregarding preoperative bathing (Table 4.1.1). \r\nMost recommend bathing with soap the day of the\r\noperation or the day before. Only the US Institute\r\nof Healthcare Improvement bundle for hip and knee\r\narthroplasty recommends CHG soap for\r\npreoperative bathing. Others state that the use \r\nof an antimicrobial soap instead of plain soap \r\nis an unresolved issue. \r\nGuidelines Recommendations on preoperative bathing and related time of administration\r\n(year issued)\r\nSHEA/IDSA Unresolved issue.\r\npractice \r\nrecommendation \r\n(2014) (9)\r\nNICE Bathing is recommended to reduce the microbial load, but not necessarily SSI. Soap\r\n(2008 and 2013 should be used. The use of antiseptic soap to prevent SSI is inconclusive.\r\nupdate) (10, 11)\r\nHealth Protection Ensure that the patient has showered (or bathed/washed if unab..."
+        },
+        {
+          "rank": 2,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9525089863520447,
+          "verified_match": true,
+          "snippet": "Norwich: Her Majesty\u2019s\r\nStationery Office; 2004\r\n(http://www.gov.uk/government/uploads/\r\nsystem/uploads/attachment_data/file/148489/\r\nHBN_13.pdf).\r\n15. Health technical memorandum 01-01:\r\nmanagement and decontamination of surgical\r\ninstruments (medical devices) used in acute\r\ncare. London: Department of Health, 2013\r\n(https://www.gov.uk/government/publications/\r\nmanagement-and-decontamination-of-surgical\ufffeinstruments-used-in-acute-care, accessed 16\r\nFebruary 2016).\r\n16. Spaulding EH. Chemical disinfection of medical\r\nand surgical materials. In: Lawrence CA, Block\r\nSS, editors. Disinfection, sterilization and\r\npreservation, Philadelphia (PA): Lea & Febiger;\r\n1968:517-31g\r\n17. Kovaleva J, Peters FT, van der Mei HC, Degener\r\nJE. Transmission of infection by flexible\r\nGastrointestinal endoscopy and bronchoscopy.\r\nClin Microbiol Rev. 2013;26(2):231-54.\r\n18. Health technical memorandum 01-06:\r\ndecontamination of flexible endoscopes:\r\nLondon: Department of Health; 2013\r\n(https://www.gov.uk/government/publications/\r\nmanagement-and-decontamination-of-flexible\ufffeendoscopes, accessed 16 February 2016).Recommendations\r\nIt is good clinical practice for patients to bathe or shower prior to surgery...."
+        },
+        {
+          "rank": 3,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9345470435564286,
+          "verified_match": true,
+          "snippet": "Two studies (1, 2) found that CHG solutions may cause skin\r\nirritation, delayed reactions, such as contact dermatitis and photosensitivity, and hypersensitivity\r\nreactions in very rare cases, such as anaphylactic shock. Some of these potential adverse events may be\r\ninduced also by ingredients of regular soap, such as fragrances. A concern of the GDG was the possible\r\ndevelopment of reduced susceptibility to CHG, particularly when using CHG-impregnated cloths (3). \r\n\u00f1 The GDG also expressed concern about the cost of CHG-impregnated cloths, in particular in settings\r\nwith limited resources where other interventions may have a higher priority.\r\n4. EVIDENCE-BASED\r\nRECOMMENDATIONS ON MEASURES\r\nFOR THE PREVENTION \r\nOF SURGICAL SITE INFECTION\r\nGlobal Guidelines for the Prevention of Surgical Site Infection 58\r\nPREOPERATIVE MEASURES\r\n4.1 Preoperative bathing 59 4. Evidence-based recommendations on measures for the prevention of surgical site infection | PREOPERATIVE MEASURES\r\nBackground\r\nPreoperative whole-body bathing or showering is\r\nconsidered good clinical practice to make the skin\r\nas clean as possible prior to surgery in order to\r\nreduce the bacterial load, especially at the site..."
+        },
+        {
+          "rank": 4,
+          "file_id": "file-8dvaHCZehNqZwKKJYGBoXe",
+          "filename": "Surgical site infections NICE.pdf",
+          "score": 0.9125646050856249,
+          "verified_match": true,
+          "snippet": "Making decisions using NICE guidelines explains how we use words to show the \r\nstrength (or certainty) of our recommendations, and has information about \r\nprescribing medicines (including off-label use), professional guidelines, standards \r\nand laws (including on consent and mental capacity), and safeguarding. \r\n1.1 Information for patients and carers \r\n1.1.1 Offer patients and carers clear, consistent information and advice throughout all \r\nstages of their care. This should include the risks of surgical site infections, what \r\nis being done to reduce them and how they are managed. For more guidance on \r\nproviding information to adults and discussing their preferences with them, see \r\nthe NICE guideline on patient experience in adult NHS services. [2008] \r\n1.1.2 Offer patients and carers information and advice on how to care for their wound \r\nafter discharge. [2008] \r\n1.1.3 Offer patients and carers information and advice about how to recognise a \r\nsurgical site infection and who to contact if they are concerned. Use an \r\nintegrated care pathway for healthcare-associated infections to help \r\ncommunicate this information to both patients and all those involved in their care \r\nafter..."
+        },
+        {
+          "rank": 5,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.8747625093349686,
+          "verified_match": true,
+          "snippet": "\u00f1 After application of the ABHR as recommended, allow hands and forearms to dry\r\nthoroughly before donning sterile gloves.\r\n\u00f1 Use an appropriate antiseptic agent to perform preoperative surgical scrub,\r\nscrubbing the hands and forearms for 2\u20135 minutes for most products.\r\n\u00f1 The operating team should wash their hands prior to the first operation on the list\r\nusing an aqueous antiseptic surgical solution and ensure that hands and nails are\r\nvisibly clean, with a single-use brush or pick for the nails. \r\n\u00f1 Before subsequent operations, hands should be washed using either using an ABHR\r\nor an antiseptic surgical solution. \r\n\u00f1 If hands are soiled, they should be washed again with an antiseptic surgical\r\nsolution. \r\n\u00f1 The revised version of this guideline published in 2013 repeats the same surgical\r\nhand preparation recommendation with the addition of ensuring the removal of\r\nany hand jewellery, artificial nails and nail polish before starting surgical hand\r\ndecontamination.\r\nOR: operating room; ABHR: alcohol-based handrub; SHEA: Society for Healthcare Epidemiology of America; \r\nIDSA: Infectious Diseases Society of America; NICE: National Institute for Health and Care Excellence.\r\nA Cochr..."
+        },
+        {
+          "rank": 6,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.8713425667110143,
+          "verified_match": true,
+          "snippet": "A sufficient amount of ABHR should\r\nbe applied to dry hands and forearms for the length\r\nof time recommended by the manufacturer,\r\ntypically 1.5 minutes, and hands and forearms\r\nallowed to dry before donning sterile gloves. \r\nSeveral organizations have issued recommendations\r\nregarding surgical hand preparation and these are\r\nsummarized in Table 4.9.1.97 4. Evidence-based recommendations on measures for the prevention of surgical site infection | PREOPERATIVE MEASURES\r\nTable 4.9.1. Summary of recommendations on surgical hand preparation according to\r\navailable guidelines\r\nGuidelines\r\n(date issued)\r\nWHO Guidelines \r\non hand hygiene \r\nin health care\r\n(2009) (1)\r\nSHEA/IDSA\r\n(2014) (9)\r\nNICE\r\n(2008 and 2013)\r\n(10,11)\r\nRecommendations on surgical hand preparation\r\n\u00f1 Surgical hand antisepsis should be performed using either a suitable antimicrobial\r\nsoap or suitable ABHR, preferably with a product ensuring sustained activity, before\r\ndonning sterile gloves.\r\n\u00f1 If the quality of water is not assured in the OR, surgical hand antisepsis using an\r\nABHR is recommended before donning sterile gloves when performing surgical\r\nprocedures.\r\n\u00f1 When performing surgical hand antisepsis using an antim..."
+        }
+      ],
+      "flashcards": [
+        {
+          "question": "What type of soap is recommended for preoperative bathing to reduce microbial load?",
+          "answer": "Chlorhexidine gluconate (CHG) soap is recommended, though plain soap can also be used."
+        },
+        {
+          "question": "When should patients shower or bathe before surgery?",
+          "answer": "Patients should shower or bathe the day before or the day of the operation."
+        },
+        {
+          "question": "What is the purpose of using soap in the preoperative shower?",
+          "answer": "To reduce the microbial load on the skin prior to surgery."
+        },
+        {
+          "question": "Is using antimicrobial soap universally agreed upon for SSI prevention?",
+          "answer": "No, the use of antimicrobial soap instead of plain soap is still an unresolved issue according to some guidelines."
+        },
+        {
+          "question": "What does the US Institute of Healthcare Improvement specifically recommend for preoperative showering?",
+          "answer": "They recommend using chlorhexidine gluconate (CHG) soap."
+        }
+      ],
+      "mcq": {
+        "quiz_title": "Evaluation MCQ #6",
+        "questions": [
+          {
+            "question_text": "What type of soap is recommended for preoperative bathing to reduce microbial load?",
+            "flashcard_id": 171,
+            "options": [
+              {
+                "label": "A",
+                "text": "Only plain soap is recommended."
+              },
+              {
+                "label": "B",
+                "text": "Chlorhexidine gluconate (CHG) soap is recommended, though plain soap can also be used."
+              },
+              {
+                "label": "C",
+                "text": "Antibacterial liquid soap is necessary."
+              },
+              {
+                "label": "D",
+                "text": "No soap is required."
+              }
+            ],
+            "correct_label": "B"
+          },
+          {
+            "question_text": "When should patients shower or bathe before surgery?",
+            "flashcard_id": 172,
+            "options": [
+              {
+                "label": "A",
+                "text": "There is no specific time to shower before surgery."
+              },
+              {
+                "label": "B",
+                "text": "Patients can shower two days before the operation."
+              },
+              {
+                "label": "C",
+                "text": "Patients should shower or bathe the day before or the day of the operation."
+              },
+              {
+                "label": "D",
+                "text": "Patients must shower only in the morning of the operation."
+              }
+            ],
+            "correct_label": "C"
+          },
+          {
+            "question_text": "What is the purpose of using soap in the preoperative shower?",
+            "flashcard_id": 173,
+            "options": [
+              {
+                "label": "A",
+                "text": "To clean the skin from dirt."
+              },
+              {
+                "label": "B",
+                "text": "To moisturize the skin."
+              },
+              {
+                "label": "C",
+                "text": "To reduce the microbial load on the skin prior to surgery."
+              },
+              {
+                "label": "D",
+                "text": "To remove all dead skin cells."
+              }
+            ],
+            "correct_label": "C"
+          },
+          {
+            "question_text": "Is using antimicrobial soap universally agreed upon for SSI prevention?",
+            "flashcard_id": 174,
+            "options": [
+              {
+                "label": "A",
+                "text": "Yes, all guidelines recommend antimicrobial soap."
+              },
+              {
+                "label": "B",
+                "text": "No, the use of antimicrobial soap instead of plain soap is still an unresolved issue according to some guidelines."
+              },
+              {
+                "label": "C",
+                "text": "Antimicrobial soap is considered harmful."
+              },
+              {
+                "label": "D",
+                "text": "It is universally accepted without any debate."
+              }
+            ],
+            "correct_label": "B"
+          },
+          {
+            "question_text": "What does the US Institute of Healthcare Improvement specifically recommend for preoperative showering?",
+            "flashcard_id": 175,
+            "options": [
+              {
+                "label": "A",
+                "text": "They recommend using chlorhexidine gluconate (CHG) soap."
+              },
+              {
+                "label": "B",
+                "text": "They do not provide any recommendations."
+              },
+              {
+                "label": "C",
+                "text": "They suggest using plain soap only."
+              },
+              {
+                "label": "D",
+                "text": "They recommend showering with water only."
+              }
+            ],
+            "correct_label": "A"
+          }
+        ]
+      }
+    },
+    {
+      "question_index": 9,
+      "guideline": "EORNA guidelines",
+      "user_question": "When should patients undergoing surgery take a preoperative shower?",
+      "assistant_answer": "Patients undergoing surgery should take a preoperative shower either the day before or the day of the operation. This practice aims to reduce the bacterial load on the skin, especially at the site of incision, which helps lower the risk of surgical site infections (SSI). Both plain soap and antimicrobial soap can be used for this purpose, although the effectiveness of antimicrobial soap compared to plain soap is still considered an unresolved issue.",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.953280551582492,
+          "verified_match": true,
+          "snippet": "When considering the available evidence, the most\r\nrelevant question is whether preoperative bathing\r\nor showering with an antimicrobial soap is more\r\neffective than plain soap to reduce SSI. The GDG\r\nalso considered it relevant to investigate whether\r\nusing CHG-impregnated cloths rather than bathing\r\nwith CHG soap is more effective.\r\nSeveral organizations have issued recommendations\r\nregarding preoperative bathing (Table 4.1.1). \r\nMost recommend bathing with soap the day of the\r\noperation or the day before. Only the US Institute\r\nof Healthcare Improvement bundle for hip and knee\r\narthroplasty recommends CHG soap for\r\npreoperative bathing. Others state that the use \r\nof an antimicrobial soap instead of plain soap \r\nis an unresolved issue. \r\nGuidelines Recommendations on preoperative bathing and related time of administration\r\n(year issued)\r\nSHEA/IDSA Unresolved issue.\r\npractice \r\nrecommendation \r\n(2014) (9)\r\nNICE Bathing is recommended to reduce the microbial load, but not necessarily SSI. Soap\r\n(2008 and 2013 should be used. The use of antiseptic soap to prevent SSI is inconclusive.\r\nupdate) (10, 11)\r\nHealth Protection Ensure that the patient has showered (or bathed/washed if unab..."
+        },
+        {
+          "rank": 2,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.8970131933159445,
+          "verified_match": true,
+          "snippet": "Rationale for the recommendation\r\n\u00f1 The GDG considers it good clinical practice to bathe or shower before surgery to ensure that the skin is as\r\nclean as possible and to reduce the bacterial load, especially at the site of incision. Moderate quality\r\nevidence shows that preoperative bathing with antimicrobial soap containing CHG has neither benefit nor\r\nharm compared to plain soap in reducing the SSI rate. As no study was available using antimicrobial agents\r\nother than CHG, the GDG unanimously agreed that either plain or antimicrobial soap may be used.\r\n\u00f1 Evaluation of the evidence from 3 observational studies showed that preoperative bathing with 2%\r\nCHG-impregnated cloths may have some benefit in reducing the SSI rate when compared to bathing\r\nwith CHG soap or no preoperative bathing. However, in 2 of these studies, the comparison group was\r\ninadequate as it included patients who did not comply with instructions to use the cloths preoperatively.\r\nThis limited and very low quality evidence was considered as insufficient to make any recommendation\r\nregarding the use of CHG cloths. All GDG members agreed not to formulate a recommendation on this\r\ntopic, apart from one member who wo..."
+        },
+        {
+          "rank": 3,
+          "file_id": "file-8dvaHCZehNqZwKKJYGBoXe",
+          "filename": "Surgical site infections NICE.pdf",
+          "score": 0.8936084972190241,
+          "verified_match": true,
+          "snippet": "Making decisions using NICE guidelines explains how we use words to show the \r\nstrength (or certainty) of our recommendations, and has information about \r\nprescribing medicines (including off-label use), professional guidelines, standards \r\nand laws (including on consent and mental capacity), and safeguarding. \r\n1.1 Information for patients and carers \r\n1.1.1 Offer patients and carers clear, consistent information and advice throughout all \r\nstages of their care. This should include the risks of surgical site infections, what \r\nis being done to reduce them and how they are managed. For more guidance on \r\nproviding information to adults and discussing their preferences with them, see \r\nthe NICE guideline on patient experience in adult NHS services. [2008] \r\n1.1.2 Offer patients and carers information and advice on how to care for their wound \r\nafter discharge. [2008] \r\n1.1.3 Offer patients and carers information and advice about how to recognise a \r\nsurgical site infection and who to contact if they are concerned. Use an \r\nintegrated care pathway for healthcare-associated infections to help \r\ncommunicate this information to both patients and all those involved in their care \r\nafter..."
+        },
+        {
+          "rank": 4,
+          "file_id": "file-8dvaHCZehNqZwKKJYGBoXe",
+          "filename": "Surgical site infections NICE.pdf",
+          "score": 0.8895468446600514,
+          "verified_match": true,
+          "snippet": "4 \r\nRecommendations . 5 \r\n1.1 Information for patients and carers . 5 \r\n1.2 Preoperative phase . 6 \r\n1.3 Intraoperative phase . 9 \r\n1.4 Postoperative phase . 13 \r\nTerms used in this guideline . 15 \r\nRecommendations for research . 17 \r\nKey recommendations for research . 17 \r\nOther recommendations for research . 19 \r\nRationale and impact . 20 \r\nNasal decolonisation . 20 \r\nAntiseptic skin preparation . 22 \r\nAntiseptics and antibiotics before wound closure . 23 \r\nClosure methods . 25 \r\nContext . 27 \r\nFinding more information and committee details . 29 \r\nUpdate information . 30 \r\nSurgical site infections: prevention and treatment (NG125)\r\n\u00a9 NICE 2025. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and\ufffeconditions#notice-of-rights).\r\nPage 3 of\r\n30This guideline replaces CG74. \r\nThis guideline is the basis of QS49. \r\nOverview \r\nThis guideline covers preventing and treating surgical site infections in adults, young \r\npeople and children who are having a surgical procedure involving a cut through the skin. It \r\nfocuses on methods used before, during and after surgery to minimise the risk of infection. \r\nWho is it for? \r\n\u2022 Healthcare professionals \r\n\u2022 Commissi..."
+        },
+        {
+          "rank": 5,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.8546552270174167,
+          "verified_match": true,
+          "snippet": "To ensure that each recommendation\r\nis correctly understood and applied in practice, \r\nthe GDG has provided additional remarks where\r\nneeded. Guideline users should refer to these\r\nremarks, as well as to the summary of the evidence\r\nprovided in each chapter of the recommendations.\r\nThe summaries of the systematic reviews, including \r\nthe risk of bias assessments and the GRADE tables,\r\nare available in full as on-line appendices of the\r\nguidelines. Each chapter also features a research\r\nagenda identified by the GDG for each topic.\r\nThe recommendations for the prevention of SSI \r\nto be applied or considered in the pre-, intra- and\r\npostoperative periods are summarized in the \r\nTable below, together with the associated PICO\r\nquestions and their strength and evidence quality. \r\nIn accordance with WHO guideline development\r\nprocedures, these recommendations will be\r\nreviewed and updated following identification \r\nof new evidence at least every five years. WHO\r\nwelcomes suggestions regarding additional\r\nquestions for inclusion in future updates of the\r\nguidelines.\r\nGlobal Guidelines for the Prevention of Surgical Site Infection 1415 Executive summary\r\nTable 1. Summary of core topics, res..."
+        },
+        {
+          "rank": 6,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.8239033620217481,
+          "verified_match": true,
+          "snippet": "2. Is preoperative bathing\r\nwith CHG-impregnated\r\ncloths more effective in\r\nreducing the incidence \r\nof SSI in surgical patients\r\ncompared to bathing\r\nwith antimicrobial soap? \r\nIs mupirocin nasal\r\nointment in combination\r\nwith or without CHG\r\nbody wash effective in\r\nreducing the number of \r\nS. aureus infections in\r\nnasal carriers undergoing\r\nsurgery?\r\n1. Should SAP be\r\nmodified in high (>10%)\r\nESBL prevalence areas? \r\n2. Should SAP be\r\nmodified in patients \r\nwho are colonized with\r\nor a carrier of ESBL? \r\n3. Should patients be\r\nscreened for ESBL prior\r\nto surgery?\r\nRecommendations\r\nIt is good clinical practice\r\nfor patients to bathe or\r\nshower prior to surgery. \r\nThe panel suggests that\r\neither plain soap or an\r\nantimicrobial soap may be\r\nused for this purpose. \r\nThe panel decided not to\r\nformulate a recommendation\r\non the use of CHG\ufffeimpregnated cloths for \r\nthe purpose of reducing \r\nSSI due to the very low\r\nquality of evidence.\r\nThe panel recommends \r\nthat patients undergoing\r\ncardiothoracic and\r\northopaedic surgery with\r\nknown nasal carriage of \r\nS. aureus should receive\r\nperioperative intranasal\r\napplications of mupirocin \r\n2% ointment with or\r\nwithout a combination \r\nof CHG bo..."
+        }
+      ],
+      "flashcards": [
+        {
+          "question": "When should patients take a preoperative shower?",
+          "answer": "The day before or the day of the operation."
+        },
+        {
+          "question": "What is the purpose of a preoperative shower?",
+          "answer": "To reduce the bacterial load on the skin and lower the risk of surgical site infections."
+        },
+        {
+          "question": "What type of soap can be used for preoperative bathing?",
+          "answer": "Both plain soap and antimicrobial soap can be used."
+        },
+        {
+          "question": "Is there a consensus on the effectiveness of antimicrobial soap over plain soap?",
+          "answer": "No, the effectiveness of antimicrobial soap compared to plain soap is considered an unresolved issue."
+        },
+        {
+          "question": "What is one major reason for preoperative bathing?",
+          "answer": "To clean the skin as thoroughly as possible before surgery."
+        }
+      ],
+      "mcq": {
+        "quiz_title": "Evaluation MCQ #9",
+        "questions": [
+          {
+            "question_text": "When should patients take a preoperative shower?",
+            "flashcard_id": 186,
+            "options": [
+              {
+                "label": "A",
+                "text": "A week prior to the operation."
+              },
+              {
+                "label": "B",
+                "text": "Only on the day of the operation."
+              },
+              {
+                "label": "C",
+                "text": "Two days before the operation."
+              },
+              {
+                "label": "D",
+                "text": "The day before or the day of the operation."
+              }
+            ],
+            "correct_label": "D"
+          },
+          {
+            "question_text": "What is the purpose of a preoperative shower?",
+            "flashcard_id": 187,
+            "options": [
+              {
+                "label": "A",
+                "text": "To reduce the bacterial load on the skin and lower the risk of surgical site infections."
+              },
+              {
+                "label": "B",
+                "text": "To keep the skin moisturized."
+              },
+              {
+                "label": "C",
+                "text": "To prepare the patient for anesthesia."
+              },
+              {
+                "label": "D",
+                "text": "To relax the patient before surgery."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "What type of soap can be used for preoperative bathing?",
+            "flashcard_id": 188,
+            "options": [
+              {
+                "label": "A",
+                "text": "No soap is needed."
+              },
+              {
+                "label": "B",
+                "text": "Both plain soap and antimicrobial soap can be used."
+              },
+              {
+                "label": "C",
+                "text": "Only antimicrobial soap."
+              },
+              {
+                "label": "D",
+                "text": "Only plain soap."
+              }
+            ],
+            "correct_label": "B"
+          },
+          {
+            "question_text": "Is there a consensus on the effectiveness of antimicrobial soap over plain soap?",
+            "flashcard_id": 189,
+            "options": [
+              {
+                "label": "A",
+                "text": "No, the effectiveness of antimicrobial soap compared to plain soap is considered an unresolved issue."
+              },
+              {
+                "label": "B",
+                "text": "Yes, it is unanimously recommended."
+              },
+              {
+                "label": "C",
+                "text": "Only in certain surgeries."
+              },
+              {
+                "label": "D",
+                "text": "There is no difference at all."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "What is one major reason for preoperative bathing?",
+            "flashcard_id": 190,
+            "options": [
+              {
+                "label": "A",
+                "text": "To remove hair from the surgical area."
+              },
+              {
+                "label": "B",
+                "text": "To clean the skin as thoroughly as possible before surgery."
+              },
+              {
+                "label": "C",
+                "text": "To soothe the patient\u2019s nerves."
+              },
+              {
+                "label": "D",
+                "text": "To enhance skin color."
+              }
+            ],
+            "correct_label": "B"
+          }
+        ]
+      }
+    },
+    {
+      "question_index": 10,
+      "guideline": "EORNA guidelines",
+      "user_question": "How many stages are involved in removing microbes from the skin before surgery?",
+      "assistant_answer": "The process of removing microbes from the skin before surgery typically involves two stages. The first stage occurs on the ward, where a pre-operative bath or shower is recommended to reduce skin microorganisms. The second stage takes place in the operating room during the creation of the sterile field prior to the first incision.",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "file_id": "file-6CS6XdkZV3Do1yUBbBuWEJ",
+          "filename": "EORNA-Best-Practice-for-perioperative-care2023.pdf",
+          "score": 0.9705355999367828,
+          "verified_match": true,
+          "snippet": "WWW.EORNA.EU 107\r\nEORNA best practice for skin preparation and draping\r\nStatement\r\nIn preparation for surgery, microorganisms are removed from the patient\u2019s skin to reduce the\r\nopportunity for surgical site infection. This is usually undertaken in two stages, first on the ward and\r\nthen as part of creating the sterile field, before the first incision is made. Recommended practices all\r\nindicate that a pre-operative bath or shower is an effective first stage of pre-operative preparation for\r\nthe patient, either on the day before or on the day of surgery.( 1) For preparation of the skin once the\r\npatient is in the operating room, there is considerable debate in the literature around whether one\r\nspecific antiseptic is more effective than another and also the method of application. The prepared area\r\nshould be large enough to permit extension of the incisions, potential shift of the drapes and placement\r\nof drains. (2)\r\nFollowing skin preparation, the patient will have their planned incision site isolated by sterile drapes,\r\nwhich form the sterile field.\r\nKey words\r\nSkin preparation, antiseptic , clean, risk, clipper\r\nPurpose /objective\r\nThe efficacy of antiseptic agents is dependent..."
+        },
+        {
+          "rank": 2,
+          "file_id": "file-UXCCmbBuFUAiYPhhf1GVGt",
+          "filename": "Decontamination and reprocessing-eng.pdf",
+          "score": 0.2212420597943238,
+          "verified_match": true,
+          "snippet": "This resource is intended to provide information on \r\ncleaning, disinfection and sterilization of reusable\r\npatient-care and medical equipment. It does not describe \r\nendoscope reprocessing and is not applicable to cleaning \r\nand disinfection of the environment.\r\nSingle-use devices\r\nSingle-use devices should only be used as recommended \r\nby the manufacturer and should not be reused. Such items \r\nhave not undergone extensive testing, validation and \r\ndocumentation to ensure that they are safe to reprocess \r\nand reuse.\r\nReuse of a single-use device may compromise its intended \r\nfunction and performance. It may not withstand \u2013 or come \r\nwith instructions for \u2013 decontamination.\r\nSpaulding\u2019s classification\r\nSpaulding\u2019s classification is a system of classifying the \r\npotential risk of reusable medical equipment/devices. \r\nIt recommends an appropriate method of decontamination \r\nbefore using the device on another patient (Table 1).\r\nBackground\r\nDecontamination of medical devices plays an important \r\nrole in the prevention of health care-associated infections. \r\nIt includes cleaning, disinfection and/or sterilization. \r\nThe processes involved in decontamination are \r\ncomplex, require speci..."
+        },
+        {
+          "rank": 3,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.19060152284246148,
+          "verified_match": true,
+          "snippet": "Global Guidelines for the Prevention of Surgical Site Infection 50\r\nTable 3.3.3. Spaulding classification of equipment decontamination\r\nCategory\r\nHigh\r\n(critical)\r\nIntermediate \r\n(semi-critical)\r\nLow\r\n(non-critical)\r\nDefinition\r\nMedical devices\r\ninvolved with a\r\nbreak in the skin or\r\nmucous membrane\r\nor entering a sterile\r\nbody cavity.\r\nMedical devices in\r\ncontact with\r\nmucous membranes\r\nor non-intact skin.\r\nItems in contact\r\nwith intact skin. \r\nLevel of \r\nmicrobicidal action\r\nKills all\r\nmicroorganisms. \r\nKills all\r\nmicroorganisms,\r\nexcept high numbers\r\nof bacterial spores.\r\nKills vegetative\r\nbacteria, fungi and\r\nlipid viruses.\r\nMethod of \r\ndecontamination\r\nSterilization\r\n(usually heat \r\nif heat-stable \r\nor chemical if\r\nheat-sensitive). \r\nHigh-level\r\ndisinfection by\r\nheat or chemicals\r\n(under controlled\r\nconditions with\r\nminimum toxicity\r\nfor humans).\r\nLow level\r\ndisinfection\r\n(cleaning).\r\nExample of common\r\nitems/equipment\r\nSurgical instruments,\r\nimplants, prostheses\r\nand devices, urinary\r\ncatheters, cardiac\r\ncatheters, needles \r\nand syringes, dressing,\r\nsutures, delivery sets,\r\ndental instruments,\r\nrigid bronchoscopes,\r\ncystoscopies, etc.\r\nRespiratory therapy\r\nand anaesthetic\r\neq..."
+        },
+        {
+          "rank": 4,
+          "file_id": "file-SsH5wixiwWd4pwwvfXHaJB",
+          "filename": "Surgical site infections a scoping review.pdf",
+          "score": 0.18530072194713068,
+          "verified_match": true,
+          "snippet": "Surgical site infections: a scoping review on\r\ncurrent intraoperative prevention measures\r\nMF Bath, J Davies, R Suresh, MR Machesney\r\nWhipps Cross Hospital, Barts Health NHS Trust, UK\r\nABSTRACT\r\nIntroduction Surgical site infections (SSIs) remain a significant cause of morbidity for surgical patients worldwide and with growing rates of antibiotic\r\nresistance, the development of new nonantimicrobial techniques to target SSI reduction is crucial. This review aimed to explore available nonantibiotic\r\nintraoperative interventions to reduce the risk of SSI.\r\nMethods A literature search was undertaken using Medline, Web of Science, Embase, and Cochrane Library databases. Any study published from 1\r\nJanuary 1980 to 1 September 2021 that described any nonantibiotic intraoperative physical technique aiming to reduce SSI rates, with a primary or\r\nsecondary outcome of SSI rates, was included.\r\nFindings A total of 45 articles were included in the final scoping review. The current nonantibiotic intraoperative interventions advised for use include\r\nchlorhexidine skin preparation with alcohol, pressurised wound irrigation, Triclosan-coated sutures for skin closure, and negative pressure wound\r\nth..."
+        },
+        {
+          "rank": 5,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.18502487626673325,
+          "verified_match": true,
+          "snippet": "The panel decided not to\r\nformulate a recommendation\r\ndue to the lack of evidence\r\nto assess whether double\ufffegloving or a change of\r\ngloves during the operation\r\nor the use of specific types \r\nof gloves are more effective\r\nin reducing the risk of SSI. \r\nStrength\r\nConditional\r\nNA\r\nConditional\r\nConditional\r\nConditional\r\nNA\r\nQuality of\r\nevidence\r\nVery low\r\nNA\r\nLow\r\nLow\r\nLow\r\nNA\r\nPreoperative and/or intraoperative measures Global Guidelines for the Prevention of Surgical Site Infection 20\r\nResearch questions\r\nAt the time of wound\r\nclosure, is there a difference\r\nin SSI when instruments \r\nare changed for fascial,\r\nsubcutaneous and skin\r\nclosure using a new set \r\nof sterile instruments?\r\nAre antimicrobial-coated\r\nsutures effective to \r\nprevent SSI? If yes, when\r\nand how should they be\r\nused?\r\n1. Is the use of laminar \r\nair flow in the OR\r\nassociated with the\r\nreduction of overall \r\nor deep SSI? \r\n2. Does the use of fans \r\nor cooling devices\r\nincrease SSIs? \r\n3. Is natural ventilation an\r\nacceptable alternative to\r\nmechanical ventilation?\r\nDoes continued\r\npostoperative SAP reduce\r\nthe risk of SSI compared\r\nwith preoperative and (if\r\nnecessary) intraoperative \r\nprophylaxis only?\r\nIn surgica..."
+        },
+        {
+          "rank": 6,
+          "file_id": "file-6CS6XdkZV3Do1yUBbBuWEJ",
+          "filename": "EORNA-Best-Practice-for-perioperative-care2023.pdf",
+          "score": 0.17974292638471842,
+          "verified_match": true,
+          "snippet": "WWW.EORNA.EU 118\r\n\u2018Five moments for Hand Hygiene\u2019 is a useful reference for practitioners, placed beside hand washing\r\nsinks (9). A further useful poster is the areas of the hand which are most frequently missed when hand\r\nwashing (10).\r\nSurgical Hand Antisepsis\r\nScrubbing is an extension of hand hygiene described above. The purpose is to reduce the release of\r\nskin bacteria from the hands of the surgical team for the duration of the procedure in case of an\r\nunnoticed puncture of the surgical glove releasing bacteria into the open wound. (11) The most used\r\nliquid soaps for scrubbing are chlorhexidine gluconate and povidine iodine. Almost all studies\r\ndiscourage the use of brushes on the skin of the hands during the process of surgical hand antisepsis,\r\nbut sponges may still be used (12). A supply of clean running water is essential to the process as each\r\nscrub tends to use up 20 liters of warm water. However, alcohol-based hand rubs have also been used\r\nfor pre-surgical hand preparation and have been shown to be as effective, in reducing bacterial load \u2013\r\nif not more so, than medicated soap antisepsis (13). Both methods are suitable for the reduction of\r\nsurgical site infections..."
+        }
+      ],
+      "flashcards": [
+        {
+          "question": "How many stages are involved in removing microbes from the skin before surgery?",
+          "answer": "Two stages."
+        },
+        {
+          "question": "What is the first stage in the preparation of the patient's skin before surgery?",
+          "answer": "A pre-operative bath or shower."
+        },
+        {
+          "question": "Where does the second stage of skin microbial removal occur?",
+          "answer": "In the operating room during the creation of the sterile field."
+        },
+        {
+          "question": "What is the purpose of the two-stage skin preparation process before surgery?",
+          "answer": "To reduce the opportunity for surgical site infection by removing microorganisms."
+        },
+        {
+          "question": "What is recommended for the first stage of skin preparation?",
+          "answer": "A pre-operative bath or shower on the day before or the day of surgery."
+        }
+      ],
+      "mcq": {
+        "quiz_title": "Evaluation MCQ #10",
+        "questions": [
+          {
+            "question_text": "How many stages are involved in removing microbes from the skin before surgery?",
+            "flashcard_id": 191,
+            "options": [
+              {
+                "label": "A",
+                "text": "Four stages."
+              },
+              {
+                "label": "B",
+                "text": "Three stages."
+              },
+              {
+                "label": "C",
+                "text": "Two stages."
+              },
+              {
+                "label": "D",
+                "text": "One stage."
+              }
+            ],
+            "correct_label": "C"
+          },
+          {
+            "question_text": "What is the first stage in the preparation of the patient's skin before surgery?",
+            "flashcard_id": 192,
+            "options": [
+              {
+                "label": "A",
+                "text": "Shaving the area."
+              },
+              {
+                "label": "B",
+                "text": "A pre-operative bath or shower."
+              },
+              {
+                "label": "C",
+                "text": "Cleaning with antiseptic."
+              },
+              {
+                "label": "D",
+                "text": "Applying sterile drapes."
+              }
+            ],
+            "correct_label": "B"
+          },
+          {
+            "question_text": "Where does the second stage of skin microbial removal occur?",
+            "flashcard_id": 193,
+            "options": [
+              {
+                "label": "A",
+                "text": "In the patient\u2019s room."
+              },
+              {
+                "label": "B",
+                "text": "In the recovery room."
+              },
+              {
+                "label": "C",
+                "text": "At home."
+              },
+              {
+                "label": "D",
+                "text": "In the operating room during the creation of the sterile field."
+              }
+            ],
+            "correct_label": "D"
+          },
+          {
+            "question_text": "What is the purpose of the two-stage skin preparation process before surgery?",
+            "flashcard_id": 194,
+            "options": [
+              {
+                "label": "A",
+                "text": "To ensure a quicker recovery."
+              },
+              {
+                "label": "B",
+                "text": "To reduce the opportunity for surgical site infection by removing microorganisms."
+              },
+              {
+                "label": "C",
+                "text": "To improve patient comfort."
+              },
+              {
+                "label": "D",
+                "text": "To facilitate anesthesia administration."
+              }
+            ],
+            "correct_label": "B"
+          },
+          {
+            "question_text": "What is recommended for the first stage of skin preparation?",
+            "flashcard_id": 195,
+            "options": [
+              {
+                "label": "A",
+                "text": "A pre-operative bath or shower on the day before or the day of surgery."
+              },
+              {
+                "label": "B",
+                "text": "Wearing clean clothing."
+              },
+              {
+                "label": "C",
+                "text": "Using a body scrub."
+              },
+              {
+                "label": "D",
+                "text": "Applying antiseptic cream."
+              }
+            ],
+            "correct_label": "A"
+          }
+        ]
+      }
+    },
+    {
+      "question_index": 13,
+      "guideline": "Royal College of Surgeons of England guidelines",
+      "user_question": "Which antiseptic solution most effectively reduces the chances of developing a surgical site infection?",
+      "assistant_answer": "The antiseptic solution that most effectively reduces the chances of developing a surgical site infection (SSI) is chlorhexidine in alcohol. Studies have shown that this combination is associated with the lowest incidence of SSIs compared to other preparations, such as aqueous povidone-iodine. Chlorhexidine combined with alcohol provides a better antimicrobial effect, making it the preferred choice for surgical site skin preparation.",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9617913062177003,
+          "verified_match": true,
+          "snippet": "Otolaryngol Head \r\nNeck Surg. 2013;148(3):468-74.\r\n20. Powis SJ, Waterworth TA, Arkell DG.\r\nPreoperative skin preparation: clinical evaluation\r\nof depilatory cream. BMJ. 1976;2(6045):1166-8.Global Guidelines for the Prevention of Surgical Site Infection 86\r\n21. Rojanapirom S, Danchaivijitr S. Pre-operative\r\nshaving and wound infection in appendectomy.\r\nJ Med Assoc Thai. 1992;75(Suppl. 2);20-3.\r\n22. Seropian R, Reynolds BM. Wound infections\r\nafter preoperative depilatory versus razor\r\npreparation. Am J Surg. 1971;121(3):251-4.87 4. Evidence-based recommendations on measures for the prevention of surgical site infection | PREOPERATIVE MEASURES\r\nRecommendation \r\nThe panel recommends alcohol-based antiseptic solutions based on CHG for surgical site skin\r\npreparation in patients undergoing surgical procedures. \r\n(Strong recommendation, low to moderate quality of evidence)\r\nRationale for the recommendation \r\n\u00f1 Moderate quality evidence shows that the use of alcohol-based antiseptic solutions for surgical site\r\nskin preparation is more effective compared to aqueous solutions in reducing SSI. A meta-analysis\r\nof available studies (low quality of evidence) showed that alcohol-based CHG is b..."
+        },
+        {
+          "rank": 2,
+          "file_id": "file-6CS6XdkZV3Do1yUBbBuWEJ",
+          "filename": "EORNA-Best-Practice-for-perioperative-care2023.pdf",
+          "score": 0.9569163897267584,
+          "verified_match": true,
+          "snippet": "WWW.EORNA.EU 107\r\nEORNA best practice for skin preparation and draping\r\nStatement\r\nIn preparation for surgery, microorganisms are removed from the patient\u2019s skin to reduce the\r\nopportunity for surgical site infection. This is usually undertaken in two stages, first on the ward and\r\nthen as part of creating the sterile field, before the first incision is made. Recommended practices all\r\nindicate that a pre-operative bath or shower is an effective first stage of pre-operative preparation for\r\nthe patient, either on the day before or on the day of surgery.( 1) For preparation of the skin once the\r\npatient is in the operating room, there is considerable debate in the literature around whether one\r\nspecific antiseptic is more effective than another and also the method of application. The prepared area\r\nshould be large enough to permit extension of the incisions, potential shift of the drapes and placement\r\nof drains. (2)\r\nFollowing skin preparation, the patient will have their planned incision site isolated by sterile drapes,\r\nwhich form the sterile field.\r\nKey words\r\nSkin preparation, antiseptic , clean, risk, clipper\r\nPurpose /objective\r\nThe efficacy of antiseptic agents is dependent..."
+        },
+        {
+          "rank": 3,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9510983211611644,
+          "verified_match": true,
+          "snippet": "CHG 2% in isopropyl 70% alcohol solution; PVP-I with alcohol for patients who\r\nare allergic to CHG.\r\nCombining either an iodophor or CHG with alcohol is better than PVP-I alone.\r\nCHG 2% in isopropyl 70% alcohol solution; PVP-I with alcohol for patients who\r\nare allergic to CHG. \r\nCHG 2% in isopropyl 70% alcohol solution; PVP-I with alcohol for patients who\r\nare allergic to CHG.\r\nPVP-I: povidone-iodine; CHG: chlorhexidine gluconate; SHEA: Society for Healthcare Epidemiology of America; IDSA:\r\nInfectious Diseases Society of America; NICE: National Institute for Health and Care Excellence.89 4. Evidence-based recommendations on measures for the prevention of surgical site infection | PREOPERATIVE MEASURES\r\nFollowing the in-depth analysis of the sources \r\nand strength of evidence in available guidelines, \r\nthe GDG decided to conduct a systematic review\r\nto assess the available evidence on the efficacy \r\nof solutions and antiseptic agents used for surgical\r\nsite skin preparation.\r\nSummary of the evidence\r\nThe purpose of the evidence review (web Appendix\r\n8) was to compare the effect of different solutions\r\n(alcohol-based vs. aqueous preparations) and\r\nantiseptic agents (CHG vs. PVP-I) u..."
+        },
+        {
+          "rank": 4,
+          "file_id": "file-8dvaHCZehNqZwKKJYGBoXe",
+          "filename": "Surgical site infections NICE.pdf",
+          "score": 0.9445695666042627,
+          "verified_match": true,
+          "snippet": "Overall, the evidence showed that \r\nchlorhexidine in alcohol was associated with the lowest incidence of surgical site \r\ninfections, whereas aqueous povidone-iodine was associated with the highest incidence. \r\nAn economic analysis also showed that chlorhexidine in alcohol is likely to be cost \r\neffective. Based on the evidence, the committee agreed that an alcohol-based solution of \r\nchlorhexidine should usually be the first choice when deciding which antiseptic \r\npreparation to use. However, the quality of the studies was not good enough for the \r\ncommittee to make a strong recommendation for the choice of antiseptic preparation. \r\nThe committee discussed that alcohol-based solutions should not be applied to mucous \r\nmembranes because of the risk of burns. For surgical procedures next to mucous \r\nmembranes, they agreed to recommend an aqueous solution of chlorhexidine as an option \r\nfor skin preparation. Because of the limited evidence, the committee were unable to make \r\na strong recommendation. \r\nSurgical site infections: prevention and treatment (NG125)\r\n\u00a9 NICE 2025. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and\ufffeconditions#notice-of-rights)..."
+        },
+        {
+          "rank": 5,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.8916660307071337,
+          "verified_match": true,
+          "snippet": "Application techniques for preoperative surgical\r\nsite preparation are also a topic of interest.\r\nHowever, 3 trials investigating the effect of \r\nthe application technique with comparable\r\nantiseptic compounds showed no difference in\r\nsurgical site infection (SSI) rates (1-3). Despite\r\ncurrent knowledge of the antimicrobial activity \r\nof many antiseptic agents and application\r\ntechniques, it remains unclear what is the best\r\napproach to surgical site preparation (4, 5).\r\nSeveral guidelines, such as those published by\r\nSHEA/IDSA) (6), NICE (7) or the Royal College \r\nof Physicians of Ireland (8), recommend the use \r\nof an alcohol-based solution for surgical site\r\npreparation (Table 4.7.1). However, these\r\nrecommendations are not based upon systematic\r\nreviews of the literature and meta-analysis \r\nor a rigorous evaluation of the quality of the\r\navailable evidence.\r\nGlobal Guidelines for the Prevention of Surgical Site Infection 88\r\nTable 4.7.1. Recommendations on surgical site skin preparation according to available\r\nguidelines\r\nGuidelines\r\n(date issued)\r\nSHEA/IDSA\r\n(2014) (6)\r\nNICE\r\n(2013) (7)\r\nThe Royal College \r\nof Physicians \r\nof Ireland \r\n(2012) (8)\r\nUSA Institute \r\nfor Healthcar..."
+        },
+        {
+          "rank": 6,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.8817468385636255,
+          "verified_match": true,
+          "snippet": "\u00f1 Washing the patient\u2019s skin with detergents or antiseptics is dealt with in chapter 4.1 and should be\r\nperformed separately outside of the OR, whereas surgical site skin preparation is done prior to\r\nsurgery within the OR. \r\n\u00f1 The GDG identified possible harms associated with the use of alcohol-based solutions and it was\r\nhighlighted that they should not be used on neonates or be in contact with mucosa or eyes. CHG\r\nsolutions must not be allowed to come into contact with the brain, meninges, eye or middle ear. As\r\nalcohol is highly flammable, alcohol-based antiseptic preparations may ignite if used in the presence\r\nof diathermy and they must be allowed to dry by evaporation. Therefore, it is advisable to ensure\r\nthat the drapes are not saturated with alcohol or that the alcohol-based solution has not formed a\r\npool underneath the patient before operating. While possible allergies should be accounted for (for\r\nexample, to PVP-I), it should be noted that CHG has a potential risk of causing skin irritation. OR\r\nstaff should be trained and informed about the potential harms associated with the solutions used\r\nfor surgical site preparation.\r\n4.7 Surgical site preparationBackground\r\nSur..."
+        }
+      ],
+      "flashcards": [
+        {
+          "question": "Which antiseptic is most effective in preventing surgical site infections?",
+          "answer": "Chlorhexidine in alcohol."
+        },
+        {
+          "question": "What is the primary benefit of using chlorhexidine in alcohol for skin preparation?",
+          "answer": "It is associated with the lowest incidence of surgical site infections."
+        },
+        {
+          "question": "How does chlorhexidine in alcohol compare to aqueous povidone-iodine in terms of SSI rates?",
+          "answer": "Chlorhexidine in alcohol has a lower incidence of SSIs than aqueous povidone-iodine."
+        },
+        {
+          "question": "What should you avoid when using alcohol-based antiseptics?",
+          "answer": "Do not use on mucous membranes, and ensure it does not pool under the patient."
+        },
+        {
+          "question": "What is recommended for skin preparation before surgery?",
+          "answer": "An alcohol-based solution of chlorhexidine is usually the first choice."
+        }
+      ],
+      "mcq": {
+        "quiz_title": "Evaluation MCQ #13",
+        "questions": [
+          {
+            "question_text": "Which antiseptic is most effective in preventing surgical site infections?",
+            "flashcard_id": 206,
+            "options": [
+              {
+                "label": "A",
+                "text": "Chlorhexidine in alcohol."
+              },
+              {
+                "label": "B",
+                "text": "Alcohol swabs."
+              },
+              {
+                "label": "C",
+                "text": "Iodine solution."
+              },
+              {
+                "label": "D",
+                "text": "Hydrogen peroxide."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "What is the primary benefit of using chlorhexidine in alcohol for skin preparation?",
+            "flashcard_id": 207,
+            "options": [
+              {
+                "label": "A",
+                "text": "It has a pleasant scent."
+              },
+              {
+                "label": "B",
+                "text": "It is associated with the lowest incidence of surgical site infections."
+              },
+              {
+                "label": "C",
+                "text": "It is associated with the highest incidence of surgical site infections."
+              },
+              {
+                "label": "D",
+                "text": "It dries quickly."
+              }
+            ],
+            "correct_label": "B"
+          },
+          {
+            "question_text": "How does chlorhexidine in alcohol compare to aqueous povidone-iodine in terms of SSI rates?",
+            "flashcard_id": 208,
+            "options": [
+              {
+                "label": "A",
+                "text": "Chlorhexidine in alcohol has a lower incidence of SSIs than aqueous povidone-iodine."
+              },
+              {
+                "label": "B",
+                "text": "They have the same incidence of SSIs."
+              },
+              {
+                "label": "C",
+                "text": "Chlorhexidine in alcohol has a higher incidence of SSIs."
+              },
+              {
+                "label": "D",
+                "text": "Aqueous povidone-iodine is always better."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "What should you avoid when using alcohol-based antiseptics?",
+            "flashcard_id": 209,
+            "options": [
+              {
+                "label": "A",
+                "text": "Do not use on mucous membranes, and ensure it does not pool under the patient."
+              },
+              {
+                "label": "B",
+                "text": "It is safe on mucous membranes."
+              },
+              {
+                "label": "C",
+                "text": "Use it freely on any area."
+              },
+              {
+                "label": "D",
+                "text": "Use it only on broken skin."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "What is recommended for skin preparation before surgery?",
+            "flashcard_id": 210,
+            "options": [
+              {
+                "label": "A",
+                "text": "No preparation is needed."
+              },
+              {
+                "label": "B",
+                "text": "Only iodine."
+              },
+              {
+                "label": "C",
+                "text": "Water."
+              },
+              {
+                "label": "D",
+                "text": "An alcohol-based solution of chlorhexidine is usually the first choice."
+              }
+            ],
+            "correct_label": "D"
+          }
+        ]
+      }
+    },
+    {
+      "question_index": 14,
+      "guideline": "Royal College of Surgeons of England guidelines",
+      "user_question": "Do sterile adhesive surgical drapes used during surgery reduce the risk of surgical site infection?",
+      "assistant_answer": "The use of plastic adhesive surgical drapes, with or without antimicrobial properties, is not recommended for routine use as a method to prevent surgical site infections (SSI). Evidence suggests that these drapes do not effectively reduce the risk of SSI and may even pose potential harms, such as allergic reactions and skin irritation. Therefore, it is advisable to avoid using them during surgical procedures.",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9836893915704978,
+          "verified_match": true,
+          "snippet": "To determine what type of\r\nsurgical drapes and gowns are the most effective for the purpose of preventing SSI, the GDG decided\r\nto focus on disposable non-woven and reusable woven drapes, including plastic adhesive incise\r\ndrapes with or without antimicrobial properties. Non-woven and woven drapes and gowns with\r\nantimicrobial properties were not considered a priority and no relevant evidence was found. \r\n\u00f1 Available evidence from one RCT, one quasi-RCT and 2 observational studies (moderate quality for\r\nRCTs and very low for observational) shows that the use of sterile disposable non-woven drapes and\r\nsterile surgical gowns has neither benefit nor harm when compared to sterile reusable woven drapes\r\nand surgical gowns in reducing the SSI rate. Considering the quality of the evidence, the GDG\r\nunanimously agreed to suggest that either sterile disposable non-woven or sterile reusable woven\r\ndrapes and surgical gowns can be used. The strength of this recommendation was considered to be\r\nconditional.\r\n\u00f1 The GDG pointed out that there is no evidence for the potential effect of the timing or usefulness\r\nof changing surgical drapes or gowns in the course of a surgical operation for the pu..."
+        },
+        {
+          "rank": 2,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9697725524893461,
+          "verified_match": true,
+          "snippet": "\u00f1 Considering the lack of evidence that plastic adhesive incise drapes (with or without antimicrobial\r\nproperties) prevent SSI, the GDG unanimously agreed that they should not be used. Given the\r\nquality of the evidence (moderate to very low), the strength of this recommendation was considered\r\nto be conditional.\r\nRemarks\r\n\u00f1 The GDG highlighted that if the material of the disposable and reusable surgical drapes and gowns is\r\npermeable to liquids, it can expose health care workers to body fluids and also represents a risk for\r\npatients. Ideally, the material should be impermeable to prevent the migration of microorganisms.\r\nThe GDG remarked that both reusable and disposable drapes and gowns commercially available are\r\nin permeable or impermeable forms.\r\n\u00f1 The GDG identified possible harms associated with the use of disposable drapes in that the adhesive\r\nbands of single-use drapes may provoke skin rash or eczema and devices may be dislodged when\r\nremoving adhesive drapes after the surgical procedure (1).\r\n\u00f1 Regarding plastic, adhesive incise drapes, the GDG identified allergic reactions as a possible harm\r\nassociated with the use of iodophor-impregnated incise drapes (2). The GDG no..."
+        },
+        {
+          "rank": 3,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9653714993955459,
+          "verified_match": true,
+          "snippet": "The\r\neffect of excess fluid balance on the mortality\r\nrate of surgical patients: a multicenter\r\nprospective study. Crit Care. 2013;17(6):R288.\r\n26. Leaper D, Burman-Roy S, Palanca A, Cullen K,\r\nWorster D, Gautam-Aitken E, et al. Prevention\r\nand treatment of surgical site infection:\r\nsummary of NICE guidance. BMJ.\r\n2008;337:a1924.\r\n27. A summary of selected new evidence relevant\r\nto NICE clinical guideline 74 \u201cPrevention and\r\ntreatment of surgical site infection\u201d (2008).\r\nEvidence update 43. June 2013. Manchester:\r\nNational Institute for Health and Care\r\nExcellence\r\n(http://www.nice.org.uk/guidance/cg74/evidenc\r\ne, acccessed 21 July 2016). \r\n28. Anderson DJ, Podgorny K, Berrios-Torres SI,\r\nBratzler DW, Dellinger EP, Greene L, et al.\r\nStrategies to prevent surgical site infections \r\nin acute care hospitals: 2014 update. Infect\r\nControl Hosp Epidemiol. 2014;35(6):605-27.Global Guidelines for the Prevention of Surgical Site Infection 132\r\n4.16 Drapes and gowns\r\nRecommendations\r\n1. The panel suggests that either sterile, disposable, non-woven or sterile, reusable woven drapes\r\nand surgical gowns can be used during surgical operations for the purpose of preventing SSI. \r\n(Conditional rec..."
+        },
+        {
+          "rank": 4,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.964075642291808,
+          "verified_match": true,
+          "snippet": "Regarding the first question, five studies including \r\na total of 6079 patients and comprising one RCT\r\n(12), one quasi-RCT (13) and three observational\r\n(1, 14, 15) were identified. Studies included clean\r\nand clean-contaminated (for example, general,\r\ncardiothoracic, orthopaedic, neurosurgery and\r\nplastic surgery) procedures. Four studies (1, 12, 13,\r\n15) compared the use of sterile, disposable non\ufffewoven drapes and gowns vs. sterile, reusable \r\nwoven drapes and gowns. One study (14) compared\r\nthe use of sterile, disposable fenestrated drapes\r\ndesigned originally for cardiac catheterization with\r\ntraditional draping that involved the use of multipleGlobal Guidelines for the Prevention of Surgical Site Infection 134\r\nreusable cloth drapes. There was a substantial\r\nvariation among studies in the definition of SSI and\r\nthe type and material of the single-use and reusable\r\ndrapes and gowns.\r\nAfter careful appraisal of the retrieved studies, \r\na meta-analysis including the studies evaluating\r\nsterile, disposable non-woven vs. sterile, reusable\r\nwoven drapes and gowns was performed. \r\nA moderate (RCTs) and very low (observational\r\nstudies) quality of evidence showed that the use \r\nof st..."
+        },
+        {
+          "rank": 5,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9503997167973002,
+          "verified_match": true,
+          "snippet": "This topic is addressed in a few of the recent\r\navailable guidelines, but with conflicting\r\nrecommendations. The recent SHEA/IDSA\r\nguidelines issued in 2014 recommend that plastic\r\nadhesive drapes with or without antimicrobial\r\nproperties should not be used routinely as \r\na strategy to prevent SSI (10). However, \r\nthe UK-based NICE issued a guideline in 2008\r\nrecommending that an iodophor-impregnated\r\ndrape should be used if a plastic adhesive drape \r\nis required (11).\r\nFollowing an in-depth analysis of the available\r\nresources and given the limited recommendations\r\nfrom other guidelines, the GDG decided to conduct\r\na systematic review to assess the effect of the use\r\nof sterile disposable or reusable drapes and surgical\r\ngowns, including plastic adhesive incise drapes, \r\nfor the purpose of SSI prevention. \r\nSummary of the evidence\r\nThe purpose of the evidence review (web Appendix\r\n17) was to evaluate 3 important questions: (1)\r\nwhether sterile disposable non-woven drapes and\r\ngowns or sterile reusable woven drapes and gowns\r\nshould be used to prevent SSI; (2) whether changing\r\ndrapes during operations affect the risk of SSI; \r\nand (3) whether sterile, disposable, adhesive incise..."
+        },
+        {
+          "rank": 6,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9446362173715319,
+          "verified_match": true,
+          "snippet": "Anesthesiology.\r\n2005;103(1):25-32.\r\n20. Wilson J, Woods I, Fawcett J, Whall R, Dibb W,\r\nMorris C, et al. Reducing the risk of major\r\nelective surgery: randomised controlled trial of\r\npreoperative optimisation of oxygen delivery.\r\nBMJ. 1999;318(7191):1099-103.\r\n21. Boyd O, Grounds RM, Bennett ED. A\r\nrandomized clinical trial of the effect of\r\ndeliberate perioperative increase of oxygen131 4. Evidence-based recommendations on measures for the prevention of surgical site infection | PREOPERATIVE AND/OR INTRAOPERATIVE MEASURES\r\ndelivery on mortality in high-risk surgical\r\npatients. JAMA. 1993;270(22):2699-707.\r\n22. McKendry M, McGloin H, Saberi D, Caudwell L,\r\nBrady AR, Singer M. Randomised controlled\r\ntrial assessing the impact of a nurse delivered,\r\nflow monitored protocol for optimisation of\r\ncirculatory status after cardiac surgery. BMJ.\r\n2004;329(7460):258.\r\n23. Pearse R, Dawson D, Fawcett J, Rhodes A,\r\nGrounds RM, Bennett ED. Early goal-directed\r\ntherapy after major surgery reduces\r\ncomplications and duration of hospital stay. \r\nA randomised, controlled trial\r\n[ISRCTN38797445]. Crit Care.\r\n2005;9(6):R687-93.\r\n24. Vermeulen H, Hofland J, Legemate DA, Ubbink\r\nDT. Intravenous fluid..."
+        }
+      ],
+      "flashcards": [
+        {
+          "question": "What is the recommendation regarding the use of plastic adhesive surgical drapes for preventing surgical site infections?",
+          "answer": "They should not be used routinely to prevent surgical site infections."
+        },
+        {
+          "question": "What are some potential harms associated with plastic adhesive surgical drapes?",
+          "answer": "Allergic reactions and skin irritation."
+        },
+        {
+          "question": "What type of surgical drapes are suggested for use instead of adhesive drapes?",
+          "answer": "Sterile disposable non-woven drapes or sterile reusable woven drapes."
+        },
+        {
+          "question": "Why are plastic adhesive surgical drapes considered ineffective for SSI prevention?",
+          "answer": "Evidence shows they do not significantly reduce the risk of surgical site infections."
+        },
+        {
+          "question": "What is a key consideration when selecting surgical drapes for surgery?",
+          "answer": "Choosing drapes that are impermeable to prevent the migration of microorganisms."
+        }
+      ],
+      "mcq": {
+        "quiz_title": "Evaluation MCQ #14",
+        "questions": [
+          {
+            "question_text": "What is the recommendation regarding the use of plastic adhesive surgical drapes for preventing surgical site infections?",
+            "flashcard_id": 211,
+            "options": [
+              {
+                "label": "A",
+                "text": "They are only effective in emergency surgeries."
+              },
+              {
+                "label": "B",
+                "text": "They should be used in all surgeries."
+              },
+              {
+                "label": "C",
+                "text": "They are highly recommended for use."
+              },
+              {
+                "label": "D",
+                "text": "They should not be used routinely to prevent surgical site infections."
+              }
+            ],
+            "correct_label": "D"
+          },
+          {
+            "question_text": "What are some potential harms associated with plastic adhesive surgical drapes?",
+            "flashcard_id": 212,
+            "options": [
+              {
+                "label": "A",
+                "text": "Inadequate coverage."
+              },
+              {
+                "label": "B",
+                "text": "Allergic reactions and skin irritation."
+              },
+              {
+                "label": "C",
+                "text": "Higher risk of infection."
+              },
+              {
+                "label": "D",
+                "text": "Increased surgical time."
+              }
+            ],
+            "correct_label": "B"
+          },
+          {
+            "question_text": "What type of surgical drapes are suggested for use instead of adhesive drapes?",
+            "flashcard_id": 213,
+            "options": [
+              {
+                "label": "A",
+                "text": "Non-sterile cloth drapes."
+              },
+              {
+                "label": "B",
+                "text": "Plastic adhesive drapes."
+              },
+              {
+                "label": "C",
+                "text": "Cotton drapes."
+              },
+              {
+                "label": "D",
+                "text": "Sterile disposable non-woven drapes or sterile reusable woven drapes."
+              }
+            ],
+            "correct_label": "D"
+          },
+          {
+            "question_text": "Why are plastic adhesive surgical drapes considered ineffective for SSI prevention?",
+            "flashcard_id": 214,
+            "options": [
+              {
+                "label": "A",
+                "text": "Evidence shows they do not significantly reduce the risk of surgical site infections."
+              },
+              {
+                "label": "B",
+                "text": "They are too thick."
+              },
+              {
+                "label": "C",
+                "text": "They are not sterile."
+              },
+              {
+                "label": "D",
+                "text": "They don't stick well."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "What is a key consideration when selecting surgical drapes for surgery?",
+            "flashcard_id": 215,
+            "options": [
+              {
+                "label": "A",
+                "text": "Choosing drapes with patterns."
+              },
+              {
+                "label": "B",
+                "text": "Choosing the most colorful drapes."
+              },
+              {
+                "label": "C",
+                "text": "Choosing drapes that are impermeable to prevent the migration of microorganisms."
+              },
+              {
+                "label": "D",
+                "text": "Choosing the cheapest option available."
+              }
+            ],
+            "correct_label": "C"
+          }
+        ]
+      }
+    },
+    {
+      "question_index": 17,
+      "guideline": "NICE guidelines",
+      "user_question": "How often should the patient's temperature be taken during surgery?",
+      "assistant_answer": "The patient's temperature should be documented throughout surgery every 30 minutes to monitor for hypothermia and maintain normothermia, which is crucial for preventing surgical site infections (SSIs).",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "file_id": "file-6CS6XdkZV3Do1yUBbBuWEJ",
+          "filename": "EORNA-Best-Practice-for-perioperative-care2023.pdf",
+          "score": 0.9799355455329519,
+          "verified_match": true,
+          "snippet": "WWW.EORNA.EU 41\r\nRecommendation\r\nThe patient should be kept warm during induction of anesthesia. Active warming measures may be\r\ntaken, such as the application of warm blankets over the patient, warming mattresses or forced air\r\nwarming. (8) Baseline observations during induction of anesthesia should include the patient\u2019s\r\ntemperature, and temperature measurement should continue to be documented throughout surgery,\r\nevery 30 minutes.\r\nIntra-operative care\r\nEvery means within the team's control should be used to ensure that the patient does not become\r\nhypothermic during surgery. This may mean increasing the temperature of the operating room, whilst\r\nthe patient is prepared and draped, when it may have been reduced for team comfort. Extra warm\r\nblankets may be used for the patient. There are many different technologies available to keep patients\r\nwarm including convection mattresses, forced air warming, water mattresses etc. Should be used to\r\nkeep the patient warm. Recommended practice suggests that patient warming should occur for all\r\npatients having surgery for longer than 30minutes. (9)\r\nFluids such as IV fluids and blood should be warmed to 37\u00b0C using a fluid warming device. L..."
+        },
+        {
+          "rank": 2,
+          "file_id": "file-6CS6XdkZV3Do1yUBbBuWEJ",
+          "filename": "EORNA-Best-Practice-for-perioperative-care2023.pdf",
+          "score": 0.8147025291213729,
+          "verified_match": true,
+          "snippet": "WWW.EORNA.EU 57\r\nHumidity control is important because decreased humidity may lead to damage in the respiratory tract\r\nand loss of body heat through evaporation of sweat. Excessive humidity is also undesirable for patient\r\nand staff comfort, and not suitable for keeping equipment in sterile condition. Relative humidity\r\nshould be approximately 30%-60% in most ORs and in the PACU.2, 3, 5\r\nRecommendation\r\n\u2022 Positive-pressure ventilation between the OR and the corridors should be a gold standard. For\r\nthis reason, the ventilation systems and airflow should be left on 24-hours a day, 7 days a\r\nweek, and 365 days a year. It helps to keep positive pressure inside the room and to not let\r\ndust and microorganisms enter inside.\r\n\u2022 Doors to the operating or invasive procedure rooms should be kept closed except during the\r\nentry and exit of patients and personnel.\r\n\u2022 Negative pressure ventilation is uncommon and used for high infection risk rooms in the\r\nhospital (e.g., isolation rooms for tuberculosis patients).\r\n\u2022 Minimum of 15 total air exchanges per hour and a minimum of 3 exchanges of outdoor air per\r\nhour.\r\n\u2022 Laminar airflow through HEPA filters and supplied to the operating area by cei..."
+        },
+        {
+          "rank": 3,
+          "file_id": "file-6CS6XdkZV3Do1yUBbBuWEJ",
+          "filename": "EORNA-Best-Practice-for-perioperative-care2023.pdf",
+          "score": 0.6346664215796612,
+          "verified_match": true,
+          "snippet": "WWW.EORNA.EU 40\r\nEORNA best practice for maintaining normothermia\r\nStatement\r\nPerioperative hypothermia has adverse outcomes for the patient and can be largely prevented by\r\nactively warming the patient before, during and after surgery. Operating rooms should have a system\r\nin place for managing the potential risk of hypothermia in patients undergoing surgical procedures.\r\nKey words\r\nHypothermia, risk, anesthesia, warm, blood transfusion, induction\r\nPurpose/objective\r\nPerioperative hypothermia is a side effect of anesthesia, which blocks the thermoregulatory\r\nmechanism in the hypothalamus. The patient is also subjected to cold rooms, exposed skin surfaces\r\nand long periods of immobility during surgery. Outcomes for the patient are longer times in Post\r\nAnesthesia Care Unit/ recovery unit and hospital, a greater likelihood of getting a surgical site\r\ninfection and pressure ulcers. Additional side effects are poor drug metabolism, increased\r\ncardiovascular post-operative incidents and an increased blood loss and possible need for blood\r\ntransfusion. The elderly and the young i.e. neonates are at highest risk. Patients should be informed\r\nbefore they come into hospital to bring suffic..."
+        },
+        {
+          "rank": 4,
+          "file_id": "file-6CS6XdkZV3Do1yUBbBuWEJ",
+          "filename": "EORNA-Best-Practice-for-perioperative-care2023.pdf",
+          "score": 0.3185285008568936,
+          "verified_match": true,
+          "snippet": "WWW.EORNA.EU 113\r\nEORNA recommendation for aseptic technique\r\nStatement\r\nAsepsis is the absence of microorganisms (1).Aseptic technique is practiced by perioperative personnel\r\nincluding the surgical team to reduce opportunistic infections caused by transmissible microorganisms\r\nduring surgery. The basic principles of aseptic technique are to create and maintain a sterile field,\r\nprevent contamination of the wound, isolate the operative site from the surrounding non-sterile\r\nphysical environment so that surgery can be safely performed.\r\nKey words\r\nAsepsis, aseptic technique, sterile filed ,surgical wound, contamination\r\nPurpose/objectives\r\nReducing the opportunities for contamination of the surgical wound by team members during surgery\r\nrequires a set of rules and practices which protect the patient and the environment from possible\r\nmicroorganisms which can cause surgical site infections. This practice is aseptic technique, it is the\r\ncore of surgical practice and it requires all members of the team to be vigilant for breaches of the\r\nstandards.\r\nIntroduction\r\nSurgical site infections in European Union (EU) as reported by European Centre for Disease Control\r\n(ECDC) are common infe..."
+        },
+        {
+          "rank": 5,
+          "file_id": "file-6CS6XdkZV3Do1yUBbBuWEJ",
+          "filename": "EORNA-Best-Practice-for-perioperative-care2023.pdf",
+          "score": 0.3152820470471625,
+          "verified_match": true,
+          "snippet": "The patient should be carefully monitored during use of the tourniquet\r\nwith consideration given specifically to hypertension and tachycardia. Immediately after deflation of\r\nthe cuff, circulation in the limb needs to be checked.\r\nHandover to post anesthesia care unit staff should include a report on pressure settings, duration of the\r\npneumatic tourniquet inflation, and patient outcomes when transferring the care of the patient into\r\nRecovery or to the ward, to ensure continuity of care.(16) Tourniquet pain is one of the most common\r\nside effects of tourniquet use, and may develop during and following tourniquet use. Hypertension and\r\na dull aching pain have been described. (17)\r\nPost-operative evaluation should include vital signs, including oxygen saturation; temperature; skin\r\ncondition under the tourniquet site e.g. temperature, color, and skin integrity; pulses distal to the site of\r\nthe tourniquet cuff; surgical wound site and blood loss. (18)\r\nEquipment care\r\nPrior to use, each tourniquet should be checked to ensure that it is not malfunctioning. Staff should\r\ninspect and test the entire tourniquet system before each use and according to manufacturer\u2019s\r\ninstructions. This m..."
+        },
+        {
+          "rank": 6,
+          "file_id": "file-6CS6XdkZV3Do1yUBbBuWEJ",
+          "filename": "EORNA-Best-Practice-for-perioperative-care2023.pdf",
+          "score": 0.2921498347920914,
+          "verified_match": true,
+          "snippet": "WWW.EORNA.EU 45\r\nComplications\r\nMost complications are related to nerve damage or excessive tourniquet time. (13) Some of the injuries\r\nare transient but some of the more serious injuries may be permanent, with a considerable degree of\r\ndisability for the patient.\r\nNerve injury is the most common of the iatrogenic injuries. Symptoms of nerve injury include an\r\ninability to detect pain, heat, cold, or pressure over the skin along the source of the nerve and a\r\nsluggishness or inability to move large or small muscles on command. There may also be a permanent\r\nor temporary nerve paralysis in all motor nerves distal to the cuff.\r\nShearing injuries due to poor fitting cuffs have been noted in patients with flaccid or loose skin or\r\nequally on obese patients with large amounts of subcutaneous skin. (14)\r\nPost- tourniquet syndrome has been described as due to the sudden release at the end of occlusion of\r\nmetabolic toxins produced in the limb during ischemia. The signs of this syndrome are prolonged post\ufffeoperative swelling of the limb, as well as weakness, edema, stiffness, abnormal sensations and pain.\r\nIntraoperative bleeding may occur due to an under-pressurized cuff, insufficient exsa..."
+        }
+      ],
+      "flashcards": [
+        {
+          "question": "How often should the patient's temperature be taken during surgery?",
+          "answer": "Every 30 minutes."
+        },
+        {
+          "question": "What is the importance of monitoring patient temperature during surgery?",
+          "answer": "To prevent hypothermia and reduce the risk of surgical site infections."
+        },
+        {
+          "question": "What is a key measure for maintaining normothermia in surgical patients?",
+          "answer": "Active warming measures before, during, and after surgery."
+        },
+        {
+          "question": "Why is hypothermia a concern during surgery?",
+          "answer": "It can lead to longer recovery times and increased risk of surgical site infections."
+        },
+        {
+          "question": "What should be done if a patient's temperature drops during surgery?",
+          "answer": "Implement warming measures such as blankets or warming devices."
+        }
+      ],
+      "mcq": {
+        "quiz_title": "Evaluation MCQ #17",
+        "questions": [
+          {
+            "question_text": "How often should the patient's temperature be taken during surgery?",
+            "flashcard_id": 226,
+            "options": [
+              {
+                "label": "A",
+                "text": "Every hour."
+              },
+              {
+                "label": "B",
+                "text": "Every 10 minutes."
+              },
+              {
+                "label": "C",
+                "text": "Every 20 minutes."
+              },
+              {
+                "label": "D",
+                "text": "Every 30 minutes."
+              }
+            ],
+            "correct_label": "D"
+          },
+          {
+            "question_text": "What is the importance of monitoring patient temperature during surgery?",
+            "flashcard_id": 227,
+            "options": [
+              {
+                "label": "A",
+                "text": "To check for fever."
+              },
+              {
+                "label": "B",
+                "text": "To evaluate anesthesia effectiveness."
+              },
+              {
+                "label": "C",
+                "text": "To prevent hypothermia and reduce the risk of surgical site infections."
+              },
+              {
+                "label": "D",
+                "text": "To ensure patient comfort."
+              }
+            ],
+            "correct_label": "C"
+          },
+          {
+            "question_text": "What is a key measure for maintaining normothermia in surgical patients?",
+            "flashcard_id": 228,
+            "options": [
+              {
+                "label": "A",
+                "text": "Active warming measures before, during, and after surgery."
+              },
+              {
+                "label": "B",
+                "text": "Cooling devices."
+              },
+              {
+                "label": "C",
+                "text": "Increased room temperature."
+              },
+              {
+                "label": "D",
+                "text": "Regular temperature checks."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "Why is hypothermia a concern during surgery?",
+            "flashcard_id": 229,
+            "options": [
+              {
+                "label": "A",
+                "text": "It can lead to longer recovery times and increased risk of surgical site infections."
+              },
+              {
+                "label": "B",
+                "text": "It can cause dehydration."
+              },
+              {
+                "label": "C",
+                "text": "It can lead to increased fatigue."
+              },
+              {
+                "label": "D",
+                "text": "It can make anesthesia less effective."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "What should be done if a patient's temperature drops during surgery?",
+            "flashcard_id": 230,
+            "options": [
+              {
+                "label": "A",
+                "text": "Skip the next temperature check."
+              },
+              {
+                "label": "B",
+                "text": "Stop the surgery."
+              },
+              {
+                "label": "C",
+                "text": "Implement warming measures such as blankets or warming devices."
+              },
+              {
+                "label": "D",
+                "text": "Notify the surgeon."
+              }
+            ],
+            "correct_label": "C"
+          }
+        ]
+      }
+    },
+    {
+      "question_index": 18,
+      "guideline": "NICE guidelines",
+      "user_question": "Is antibiotic prophylaxis given for all types of surgery?",
+      "assistant_answer": "Antibiotic prophylaxis is not indicated for all types of surgery. It is typically recommended for specific procedures where the risk of surgical site infections (SSI) is higher, such as clean-contaminated or contaminated surgeries. The decision to administer prophylaxis depends on various factors, including the type of surgery, patient characteristics, and guidelines from professional healthcare organizations. Generally, prophylaxis is most beneficial in surgeries involving implants or where postoperative infection risk is significantly elevated. For clean surgeries, prophylaxis is usually not required unless specific risk factors are present.",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9602731135200576,
+          "verified_match": true,
+          "snippet": "Recommendations on SAP according to available guidelines\r\nGuidelines\r\n(date issued)\r\nSHEA/IDSA \r\n(2014) (17)\r\nAmerican Society \r\nof Health-System\r\nPharmacists (1)\r\nNICE\r\n(2008) (19)\r\nThe Royal College \r\nof Physicians \r\nof Ireland \r\n(2012) (21)\r\nUSA Institute \r\nfor Healthcare\r\nImprovement:\r\nsurgical site\r\ninfection\r\n(2012) (18)\r\nSIGN: Antibiotic\r\nprophylaxis \r\nin surgery \r\n(2014) (20)\r\nUK High impact\r\nintervention bundle\r\n(2011) (22)\r\nRecommendations on SAP duration\r\nStop agent within 24 hours after the procedure for all procedures.\r\nDiscontinue antibiotic prophylaxis within 24 hours after surgery.\r\nConsider giving a single dose of antibiotic prophylaxis intravenously on starting\r\nanaesthesia.\r\nWith the exception of a small number of surgical indications (see below), the\r\nduration of surgical prophylaxis should be a single dose.\r\nDuration of prophylaxis involving more than a single dose, but not for more than\r\n24 hours: open reduction and internal fixation of compound mandibular fractures, \r\northognathic surgery, complex septorhinoplasty (including grafts), head and neck surgery.\r\nDuration for more than 24 hours, but not for more than 48 hours: open heart surgery.\r\nDiscontinue antib..."
+        },
+        {
+          "rank": 2,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9534726444192674,
+          "verified_match": true,
+          "snippet": "A relevant harm possibly linked to prolonged SAP is the intestinal spread of C.\r\ndifficile with a higher risk of a clinical manifestation of infection.Background\r\nThe preventive effect of the routine use of SAP \r\nprior to non-clean and implant surgery has long\r\nbeen recognized. However, the benefit of\r\ncontinuing SAP after completion of the procedure \r\nis unclear. While current guidelines recommend a\r\nmaximum postoperative SAP duration of 24 hours,\r\nincreasing evidence shows that there may be \r\nnon-inferiority of a single preoperative dose (and\r\npossible additional intraoperative doses according\r\nto the duration of the operation). Despite this,\r\nsurgeons still have a tendency to routinely continue\r\nSAP up to several days after surgery (15, 16).\r\nThe use and duration of postoperative prophylaxis\r\nhave been specified in clinical practice guidelines\r\nissued by professional societies or national\r\nauthorities (Table 4.24.1). Several guidelines, \r\nsuch as those published by SHEA/IDSA (17)\r\nand the American Society of Health-System\r\nPharmacists (1), recommend discontinuing SAP\r\nwithin 24 hours after surgery. The 2012 SSI\r\nprevention bundle from the US Institute of\r\nHealthcare Improvement..."
+        },
+        {
+          "rank": 3,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9495914877715493,
+          "verified_match": true,
+          "snippet": "Evidence-based recommendations on measures for the prevention of surgical site infection | POSTOPERATIVE MEASURES\r\nFollowing an in-depth analysis of the sources \r\nand strength of evidence in current guidelines, \r\nthe GDG members decided to conduct a systematic\r\nreview to assess the available evidence on the\r\neffectiveness of prolonged antibiotic prophylaxis \r\nto prevent SSI.\r\nSummary of the evidence\r\nThe purpose of the evidence review (web Appendix\r\n25) was to investigate whether prolonged SAP \r\nin the postoperative period is more effective \r\nin reducing the risk of SSI than perioperative\r\nprophylaxis (single dose before incision and\r\npossible intraoperative additional dose/s according\r\nto the duration of the operation). The target\r\npopulation included patients of all ages undergoing\r\na surgical procedure for which SAP is indicated. \r\nThe primary outcome was the occurrence of SSI \r\nand SSI-attributable mortality.\r\nSixty-nine RCTs (2-9, 11-14, 23-79) including \r\na total of 21 243 patients and investigating \r\nthe optimal duration of antibiotic prophylaxis in \r\na variety of surgical procedures were identified:\r\nappendectomy (23-27); colorectal surgery (28-30,\r\n60-64, 75); upper gastro..."
+        },
+        {
+          "rank": 4,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.9258448895069201,
+          "verified_match": true,
+          "snippet": "While the benefit of this approach seems\r\nreasonable from a drug pharmacokinetic aspect, the reviewed studies have not addressed the\r\nduration of surgical procedures or re-dosing in relation to SSI in standard antibiotic prophylaxis\r\nprotocols. No recommendation could be concluded on the benefit or harm of this approach.\r\n\u00f1 For cardiac (2 RCTs (2, 3)) and orthognathic surgery (3 RCTs (4-6)), there was some evidence that\r\nprolonging antibiotic administration after completion of the operation may be beneficial in\r\nreducing the risk of SSI when compared to single-dose prophylaxis. By contrast, other RCTs (7-13)\r\nshowed no benefit of prolonging antibiotic prophylaxis beyond 24 hours compared to prophylaxis\r\nfor up to 24 hours in these types of surgery. \r\n\u00f1 In vascular surgery, there was some evidence from one RCT (14) that prolonging antibiotic\r\nprophylaxis until intravenous lines and tubes are removed may be beneficial in reducing the risk of\r\nSSI when compared to single-dose prophylaxis.\r\n\u00f1 The GDG highlighted the risk of promoting AMR if antibiotics are prolonged in the postoperative\r\nperiod, both in the individual patient and at the health care facility level. In addition, this pra..."
+        },
+        {
+          "rank": 5,
+          "file_id": "file-8dvaHCZehNqZwKKJYGBoXe",
+          "filename": "Surgical site infections NICE.pdf",
+          "score": 0.891677745494758,
+          "verified_match": true,
+          "snippet": "[2008] \r\n1.2.14 Use the local antibiotic formulary and always take into account the potential \r\nadverse effects when choosing specific antibiotics for prophylaxis. [2008] \r\n1.2.15 Consider giving a single dose of antibiotic prophylaxis intravenously on starting \r\nanaesthesia. However, give prophylaxis earlier for operations in which a \r\ntourniquet is used. [2008] \r\n1.2.16 Before giving antibiotic prophylaxis, take into account the timing and \r\npharmacokinetics (for example, the serum half-life) and necessary infusion time \r\nof the antibiotic. Give a repeat dose of antibiotic prophylaxis when the operation \r\nis longer than the half-life of the antibiotic given. [2008] \r\nSurgical site infections: prevention and treatment (NG125)\r\n\u00a9 NICE 2025. All rights reserved. Subject to Notice of rights (https://www.nice.org.uk/terms-and\ufffeconditions#notice-of-rights).\r\nPage 8 of\r\n301.2.17 Give antibiotic treatment (in addition to prophylaxis) to patients having surgery on \r\na dirty or infected wound. [2008] \r\n1.2.18 Inform patients before the operation, whenever possible, if they will need \r\nantibiotic prophylaxis, and afterwards if they have been given antibiotics during \r\ntheir operation. [2008]..."
+        },
+        {
+          "rank": 6,
+          "file_id": "file-QhU4t6bQCRHBydntbaP183",
+          "filename": "who_guidelines-eng.pdf",
+          "score": 0.8731386876588388,
+          "verified_match": true,
+          "snippet": "44. Shaheen S, Akhtar S. Comparison of single dose\r\nversus multiple doses of anitibiotic prophylaxis\r\nin elective caesarian section. J Postgrad Med\r\nInst. 2014;28(1):83-6.\r\n45. Westen EH, Kolk PR, Van Velzen CL, Unkels R,\r\nMmuni NS, Hamisi AD, et al. Single-dose\r\ncompared with multiple day antibiotic\r\nprophylaxis for cesarean section in low\uffferesource settings, a randomized controlled,\r\nnoninferiority trial. Acta Obstet Gynecol\r\nScand. 2015;94(1):43-9.\r\n46. Cartana J, Cortes J, Yarnoz MC, Rossello JJ.\r\nAntibiotic prophylaxis in Wertheim-Meigs\r\nsurgery. A single dose vs three doses. Europ J\r\nGynaecol Oncol. 1994;15(1):14-8.\r\n47. Su HY, Ding DC, Chen DC, Lu MF, Liu JY,\r\nChang FY. Prospective randomized comparison\r\nof single-dose versus 1-day cefazolin for\r\nprophylaxis in gynecologic surgery. Acta\r\nObstet Gynecol Scand. 2005;84(4):384-9.\r\n48. Buckley R, Hughes GNF, Snodgrass T,\r\nHuchcroft SA. Perioperative cefazolin\r\nprophylaxis in hip fracture surgery. Can J Surg.\r\n1990;33(2):122-5.\r\n49. Garotta F, Pamparana F. Antimicrobial\r\nprophylaxis with ceftizoxime versus cefuroxime \r\nin orthopedic surgery. Ceftizoxime Orthopedic\r\nSurgery Italian Study Group. J Chemother.\r\n1991;3(Suppl. 2):34-5...."
+        }
+      ],
+      "flashcards": [
+        {
+          "question": "What type of surgeries typically require antibiotic prophylaxis?",
+          "answer": "Procedures with a high risk of surgical site infections, such as clean-contaminated or contaminated surgeries."
+        },
+        {
+          "question": "Is antibiotic prophylaxis necessary for all surgical procedures?",
+          "answer": "No, it is not required for all surgeries and is used based on specific indications."
+        },
+        {
+          "question": "What factors influence the decision to use antibiotic prophylaxis in surgery?",
+          "answer": "Type of surgery, patient characteristics, guidelines from professional healthcare organizations."
+        },
+        {
+          "question": "When is antibiotic prophylaxis generally beneficial?",
+          "answer": "In surgeries involving implants or where the risk of postoperative infection is significantly elevated."
+        },
+        {
+          "question": "Do clean surgeries usually require antibiotic prophylaxis?",
+          "answer": "No, unless specific risk factors are present."
+        }
+      ],
+      "mcq": {
+        "quiz_title": "Evaluation MCQ #18",
+        "questions": [
+          {
+            "question_text": "What type of surgeries typically require antibiotic prophylaxis?",
+            "flashcard_id": 231,
+            "options": [
+              {
+                "label": "A",
+                "text": "Surgeries performed on outpatient basis."
+              },
+              {
+                "label": "B",
+                "text": "Only emergency surgeries."
+              },
+              {
+                "label": "C",
+                "text": "All surgeries regardless of risk factors."
+              },
+              {
+                "label": "D",
+                "text": "Procedures with a high risk of surgical site infections, such as clean-contaminated or contaminated surgeries."
+              }
+            ],
+            "correct_label": "D"
+          },
+          {
+            "question_text": "Is antibiotic prophylaxis necessary for all surgical procedures?",
+            "flashcard_id": 232,
+            "options": [
+              {
+                "label": "A",
+                "text": "Only for surgeries involving multiple specialists."
+              },
+              {
+                "label": "B",
+                "text": "Yes, it is standard practice for all surgeries."
+              },
+              {
+                "label": "C",
+                "text": "Only for surgeries lasting longer than two hours."
+              },
+              {
+                "label": "D",
+                "text": "No, it is not required for all surgeries and is used based on specific indications."
+              }
+            ],
+            "correct_label": "D"
+          },
+          {
+            "question_text": "What factors influence the decision to use antibiotic prophylaxis in surgery?",
+            "flashcard_id": 233,
+            "options": [
+              {
+                "label": "A",
+                "text": "Type of surgery, patient characteristics, guidelines from professional healthcare organizations."
+              },
+              {
+                "label": "B",
+                "text": "Availability of antibiotics."
+              },
+              {
+                "label": "C",
+                "text": "Surgeon's personal preference only."
+              },
+              {
+                "label": "D",
+                "text": "Patient insurance coverage."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "When is antibiotic prophylaxis generally beneficial?",
+            "flashcard_id": 234,
+            "options": [
+              {
+                "label": "A",
+                "text": "In surgeries involving implants or where the risk of postoperative infection is significantly elevated."
+              },
+              {
+                "label": "B",
+                "text": "Only in surgeries with a history of infection."
+              },
+              {
+                "label": "C",
+                "text": "In every minor procedure."
+              },
+              {
+                "label": "D",
+                "text": "After surgery is completed."
+              }
+            ],
+            "correct_label": "A"
+          },
+          {
+            "question_text": "Do clean surgeries usually require antibiotic prophylaxis?",
+            "flashcard_id": 235,
+            "options": [
+              {
+                "label": "A",
+                "text": "Yes, they require immediate prophylaxis."
+              },
+              {
+                "label": "B",
+                "text": "Only if the surgery is on an elderly patient."
+              },
+              {
+                "label": "C",
+                "text": "No, unless specific risk factors are present."
+              },
+              {
+                "label": "D",
+                "text": "Always, as a precaution."
+              }
+            ],
+            "correct_label": "C"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Metric,Value
+Answer Correctness,0.90 ± 0.21
+Perceived Helpfulness,4.7 / 5
+Precision@1,0.80
+Precision@3,0.70
+Precision@6,0.55

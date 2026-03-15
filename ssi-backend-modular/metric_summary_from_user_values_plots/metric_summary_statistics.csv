@@ -1,0 +1,6 @@
+metric,count,mean,std,min,max,scale_label,higher_is_better,comparison_mean_pct,comparison_std_pct,axis_lower,axis_upper
+Groundedness / Faithfulness,1,4.7,,4.7,4.7,0-5,True,94.0,,0.0,5.0
+Answer Correctness,1,0.9,0.21,0.9,0.9,0-1,True,90.0,21.0,0.0,1.0
+Precision@1,1,0.8,,0.8,0.8,0-1,True,80.0,,0.0,1.0
+Precision@3,1,0.7,,0.7,0.7,0-1,True,70.0,,0.0,1.0
+Precision@6,1,0.55,,0.55,0.55,0-1,True,55.0,,0.0,1.0

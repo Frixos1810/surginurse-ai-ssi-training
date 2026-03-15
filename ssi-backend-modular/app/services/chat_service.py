@@ -78,13 +78,12 @@ def _system_prompt() -> str:
     )
 
 
-def _rag_context_prompt(context: str) -> str:
+def _rag_context_intro_prompt() -> str:
     return (
         "Use ONLY the knowledge base sources below to answer. "
         "If the sources do not contain the answer, say you don't have enough "
         "information in the knowledge base and ask for a more specific question. "
-        "Do NOT use outside knowledge.\n\n"
-        f"{context}"
+        "Do NOT use outside knowledge."
     )
 
 
@@ -94,6 +93,10 @@ def _rag_no_context_prompt() -> str:
         "Tell the user you don't have enough information in the knowledge base "
         "and ask for a more specific question or additional sources."
     )
+
+
+def _rag_context_prompt(context_chunk: str) -> str:
+    return f"Knowledge base source:\n{context_chunk}"
 
 
 def _clip_flashcards(cards: List[FlashcardCandidate], max_cards: int = 5) -> List[FlashcardCandidate]:
@@ -300,12 +303,12 @@ async def send_message_and_get_reply(
     messages_for_model = [{"role": "system", "content": _system_prompt()}]
 
     vector_store_id = settings.OPENAI_VECTOR_STORE_ID
-    rag_context = ""
+    rag_context_chunks: List[str] = []
     evidence_payload: dict | None = None
     if vector_store_id:
         try:
             source_filter_policy = await get_knowledge_source_filter_policy(db)
-            rag_context, evidence_payload = build_vector_store_context(
+            rag_context_chunks, evidence_payload = build_vector_store_context(
                 query=payload.content,
                 vector_store_id=vector_store_id,
                 max_results=6,
@@ -314,8 +317,10 @@ async def send_message_and_get_reply(
         except Exception as exc:
             raise HTTPException(status_code=500, detail="Vector store search failed") from exc
 
-        if rag_context:
-            messages_for_model.append({"role": "system", "content": _rag_context_prompt(rag_context)})
+        if rag_context_chunks:
+            messages_for_model.append({"role": "system", "content": _rag_context_intro_prompt()})
+            for chunk in rag_context_chunks:
+                messages_for_model.append({"role": "system", "content": _rag_context_prompt(chunk)})
         else:
             messages_for_model.append({"role": "system", "content": _rag_no_context_prompt()})
     else:

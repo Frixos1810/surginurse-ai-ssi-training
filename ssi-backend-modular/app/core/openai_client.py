@@ -1,6 +1,7 @@
 # app/core/openai_client.py
 from __future__ import annotations
 
+import sys
 from typing import Any, Dict, List, Optional, Sequence, Type, TypeVar
 
 from openai import OpenAI
@@ -9,6 +10,19 @@ from pydantic import BaseModel
 client = OpenAI()
 
 T = TypeVar("T", bound=BaseModel)
+
+
+def _safe_console_print(text: Any) -> None:
+    """
+    Print without letting console encoding errors break the request flow.
+    """
+    stream = getattr(sys, "stdout", None)
+    encoding = getattr(stream, "encoding", None) or "utf-8"
+    try:
+        print(str(text))
+    except UnicodeEncodeError:
+        sanitized = str(text).encode(encoding, errors="replace").decode(encoding, errors="replace")
+        print(sanitized)
 
 
 def _normalize_messages(messages: Sequence[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -216,9 +230,9 @@ def build_vector_store_context(
     max_results: int = 6,
     max_chars_per_result: int = 1200,
     source_filter_policy: Optional[Dict[str, Any]] = None,
-) -> tuple[str, Dict[str, Any]]:
+) -> tuple[List[str], Dict[str, Any]]:
     if not query or not query.strip():
-        return "", {"vector_store_id": vector_store_id, "query": query, "sources": []}
+        return [], {"vector_store_id": vector_store_id, "query": query, "sources": []}
 
     results = client.vector_stores.search(
         vector_store_id=vector_store_id,
@@ -297,10 +311,6 @@ def build_vector_store_context(
         sources.append(source)
         context_chunks.append(f"[{len(context_chunks) + 1}] {source['filename']}\n{source['snippet']}")
 
-    context = ""
-    if context_chunks:
-        context = "Knowledge base sources:\n" + "\n\n".join(context_chunks)
-
     evidence = {
         "vector_store_id": vector_store_id,
         "query": query,
@@ -313,7 +323,12 @@ def build_vector_store_context(
             "filtered_out_unverified": filtered_out_unverified,
         },
     }
-    return context, evidence
+    _safe_console_print("\nRetrieved Chunk Snippets:")
+    for src in sources:
+        _safe_console_print(f"\n--- {src['filename']} ---")
+        _safe_console_print(src["snippet"])
+
+    return context_chunks, evidence
 
 
 async def generate_chat_reply(
